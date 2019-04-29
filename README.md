@@ -111,13 +111,13 @@ Again, most of these will already be familar to you.  Simply add/tuck them into 
 
 Brief|Word
 -----|------
--D|had
+-D|had, contraction for could, should and would, also sometimes did
 -F|have
 -L|will
 -LD|would
 -PBT|not
 -R|are
--S|is _(or "us" such as in "let us", and of course equivalent to "has" when used for contractions)_
+-S|is, sometimes us such as in "let us", and contraction for "has"
 -Z|has
 
 ## To make the phrase a contraction, simply add `*` to the brief.
@@ -154,6 +154,16 @@ Some default entries use `EU`, some  use `AOEU` ... sigh... resolving the confli
 > `EU*LD` I'd (because `*EUD` maps to "Idaho")  
 > `AOEUD` I had (because EUD maps to id and just don't get me started whinging on all the variations of I.D. ID id ...)  
 > `AO*EUD` I’d
+
+## Double contractions
+
+Fortunately, there are very few double contractions - that is, a root word with two contractions.  They work essentially the same as all other contractions, except you are "tucking" two right-hand endings, and the non-contracted phrase is three words.
+
+`KOU` could
+`-PBT` not
+`-F` have
+`KOUFPBT` could not have
+`KO*UFPBT` couldn't've
 
 # HOW TO INSTALL
 Simply download _contractions.json_ file, then add it to your Plover dictionaries by clicking the big, round green + button at the bottom of the main screen.  By clicking and dragging, move _contractions.json_ so that it is **higher** priority then _main.json_ and _commands.json_ dictionaries, but either below or above your _user.json_ dictionary file in priority, depending on your preference. 
