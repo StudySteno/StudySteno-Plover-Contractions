@@ -1,5 +1,5 @@
 # StudySteno-Contractions
-My Plover steno dictionary of contractions and briefs for the related non-contracted phrase, based on Waleed's approach to writing contractions with an asterisk (*). I think his approach is genius, so over time I integrated the use of * for contractions into my own dictionary. See https://waleedkhan.name/blog/my-steno-system/#use-asterisks-for-apostrophes-in-contractions 
+My [Plover](http://www.openstenoproject.org/) steno dictionary of contractions and briefs for the related non-contracted phrase, based on Waleed's approach to writing contractions with an asterisk (*). I think his approach is genius, so over time I integrated the use of * for contractions into my own dictionary. See https://waleedkhan.name/blog/my-steno-system/#use-asterisks-for-apostrophes-in-contractions 
 
 Fair warning, I tend to over-explain the obvious.
 
@@ -12,6 +12,8 @@ Phrase = single-stroke abbreviation that represents more than one word
 Brief pair = a pair (or set) of briefs that represent similar or related briefs or phrases but for a minor difference between the two (such as "that'll" and "that will" - they are essentially the same words, but with the minor difference being one is a contraction and one is not).
 
 Entries = Refers specifically to entries in Plover's dictionary, but can apply to any steno dictionary.
+
+Plover = A fantastic, completely free, open source steno software program.  Plover has evolved into a full-featured, highly customizable yet simple to use program that lets anyone at all use steno to write, even if they don't have a steno machine. Plover has a great community of self-taught steno fanactics on Discord, too!  For more information about the Open Steno Project and Plover, visit http://www.openstenoproject.org/ and https://github.com/openstenoproject/plover
 
 Star = asterisk (*), specifically, the large center key on a steno keyboard that is represented by the * symbol in raw steno.
 
@@ -151,6 +153,9 @@ Sometimes entries use EU, sometimes they use AOEU ... sigh... resolving the conf
 > "EU*LD": "I'd" (can't use *EUD because that maps to "Idaho")  
 > "AOEUD": "I had" (can't use EUD because that maps to id and just don't get me started whinging ...)  
 > "AO*EUD": "I’d"
+
+# HOW TO INSTALL
+Simply download _contractions.json_ file, then add it to your Plover dictionaries by clicking the big, round green + button at the bottom of the main screen.  By clicking and dragging, move _contractions.json_ so that it is **higher** priority then _main.json_ and _commands.json_ dictionarys, but either below or above your _user.json_ dictionary file in priority, depending on your preference. 
 
 # NEED TO DO/FIX/FINISH
 
