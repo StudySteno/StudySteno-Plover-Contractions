@@ -1,4 +1,4 @@
-# StudySteno-Contractions
+# StudySteno:  Greygal's Contractions Dictionary
 My [Plover](http://www.openstenoproject.org/) steno dictionary of contractions and briefs for the related non-contracted phrase, based on [Waleed Khan](https://waleedkhan.name)'s approach to writing contractions with an asterisk (*). I think his approach is genius, so over time I integrated the use of `*` for contractions into my own dictionary. See https://waleedkhan.name/blog/my-steno-system/#use-asterisks-for-apostrophes-in-contractions for details.
 
 Fair warning, I tend to over-explain the obvious.
