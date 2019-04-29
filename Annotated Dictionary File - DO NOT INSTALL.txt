@@ -1,0 +1,334 @@
+THIS IS JUST A REFERENCE FILE, DO NOT INSTALL THIS INTO PLOVER AS A DICTIONARY!! IT WILL NOT WORK!
+THIS IS MY NOTES/ANNOTATIONS ON ALL THE CHANGES I MADE TO EXISTING BRIEFS IN THE DEFAULT PLOVER DICTIONARY, THE NEW BRIEFS I CREATED, AND MORE.
+
+THIS IS JUST A REFERENCE FILE, DO NOT INSTALL THIS INTO PLOVER AS A DICTIONARY!! IT WILL NOT WORK!
+
+"AEUPBT": "ain't", /already in library
+
+"R-PBT": "are not", /swapped 
+"R*PBT": "aren’t", /swapped (note: *PBT, PBLT, PBT are all used for 'not' - by definition, -PBT is ' - I prefer PBT)
+
+"K-PBT": "cannot", /swapped
+"K*PBT": "can’t", /swapped
+
+"KOUF": "could have", /already in dictionary
+"KO*UF": "could’ve", /already in dictionary
+"KOPBT": "could not", /changed to couldn't
+"KO*PBT": "couldn’t", /changed from cotton - I don't mind double-stroking it (really should alter this all to always use KOU as the root)
+couldn't've
+
+"TKA*EURPBT": "daren't", /added
+"TKAEURPBT": "dare not", /changed from daren't
+
+"TK-PBT": "did not", /changed from didn't
+"TK*PBT": "didn’t", /added
+
+"TKOEPBT": "do not", /changed from don't
+"TKO*EPBT": "don’t", /changed from Don't
+
+"TKUPBT": "does not", /changed from doesn't
+"TK*UPBT: "doesn’t", /added
+
+"HAPBT": "has not", /changed from hadn't
+"HA*PBT": "hasn’t", /added
+
+"SR-PBT": "have not", /changed from haven't
+"SR*PBT": "haven’t", /added
+
+"HPBT": "had not", /changed from hadn't
+"H*PBT": "hadn’t", /added
+
+"HAOES": "he is", /changed-added, phonetic
+"HEZ": "he has", /already in dictionary
+"HAOEZ": "he has", /added, phonetic
+"HAO*ES": "he’s", /already in dictionary
+"HAO*EL": "he'll", /already in dictionary
+"HAO*ED": "he’d", /changed-swapped from heed (for consistency)
+"HAOED": "he had", /changed-swapped from he'd (for consistency)
+"HAOED": "heed", /changed-swapped from heed (for consistency, still trying to figure out better way so I can squeeze in "he had")
+
+he will - is NOT in dictionary, brief to match pattern causes conflict, need to figure this out still ;D
+he would - is in dictionary as ELD, brief to match pattern causes conflict, need to figure this out still ;D
+
+"HAOERS": "here is", /changed-swapped from here's
+"HAOERZ": "here has", /added, although probably rarely used
+"HAO*ERS": "here’s",
+"HAOERL": "here will", /added
+"HAO*ERL": "here'll", /added
+"HAOERLD": "here would", /added
+"HAO*ERD": "here'd", /added
+here are - is NOT in dictionary, brief to match pattern causes conflict, need to figure this out still ;D
+here're - is NOT in dictionary, brief to match pattern causes conflict, need to figure this out still ;D
+
+(root of how is HOU)
+how is
+"HOUZ": "how has", /changed from 'house' to 'how has', keeping HOUS entry for 'house'
+"HO*US": "how's", /already in dictionary
+how are
+how're
+how have
+"HO*UF": "how've", /already in dictionary
+"HOULD": "how would", /already in dictionary
+"HOUD": "how had", /changed from how'd
+"HO*UD": "how'd", /already in dictionary
+how will
+"HO*UL": "how'll", /added
+
+
+/ I'm not happy with the 'I' family of briefs, still stewing on it
+I am >>>
+I’m >>>
+"AOEUF": "I have", /changed
+"AO*EUF": "I’ve", /already in dictionary
+I will
+I’ll
+"EULD": "I would", /already in dictionary
+"EU*LD": "I'd", /added
+"AOEUD": "I had", /changed from I'd
+"AO*EUD": "I’d", /changed from ID, which I don't mind fingerspelling (could just change EUD to ID if desired)
+
+"SPBT": "is not", /changed-swapped from isn't
+"S*PBT": "isn’t", /added
+
+"-TS": "it is", /already in dictionary
+"T-S": "it has", 
+"T-Z": "it has", /think already in dictionary
+"*TS": "it’s",
+"T*S": "it has",
+"T-L": "it will", /changed-swapped from it'll
+"T*L": "it’ll", /changed from it'll
+"T-LD": "it would", /already in dictionary
+"T*D": "it’d", /already in dictionary
+it had /am considering -TD for it had (it's 'the' right now), OR changing T-D from {^ed it} to 'it had' and changing -TD from 'the' to '{^ed it} (or use *TD for ed it)
+
+"HRETS": "let us", /changed from let's
+"HR*ETS": "let’s", /changed from lets (lets is a term primarily used in UK/non-USA English, equivalent to 'rent' in meaning. I just use HRET/S for lets, since I use it rarely.  Others may wish to leave this as is.)
+
+"PHAOEUF": "might have",
+"PHAO*EUF": "might’ve", /added
+Might not
+Mightn’t
+
+"PHUPBT": "must not", /swapped from mustn't
+"PH*UPBT": "mustn’t", /added
+
+Need not
+Needn’t
+
+one is
+one has
+"W*UPBS": "one’s", /already in dictionary
+
+"SHES": "she is", /already in dictionary
+"SHAOES": "she is", /changed from she's, phonetic
+"SHEZ": "she has", /already in dictionary
+"SHAOEZ": "she has", / changed from she's, phonetic
+"SH*ES": "she’s", /added
+"SHAO*ES": "she's", /already in dictionary
+"SHAOEL": "she will", /swapped from she'll
+"SHAO*EL": "she’ll," /already in dictionary
+"SHELD": "she would," /already in dictionary, but not consistent with SHAOE :(
+she had
+"SHAO*ED": "she’d", /already in dictionary
+
+"SHOUF": "should have", (Note: I'm aiming for consistently "SHOU" root)
+"SHO*UF": "should’ve",
+"SHO*PBT": "shouldn't", /already in dictionary
+"SHO*UPBT": "shouldn't", /added
+"SHOPBT": "should not", /swapped from shouldn't
+"SHOUPBT": "should not", /added
+
+(tons of 'somebody' options, I prefer SPH-B as the root)
+"SPH-BL": "somebody will", /added
+"SPH*BL": "somebody'll", /added
+"SPH-BLD": "somebody would", /added
+"SPH-BD": "somebody had", /added - note orthographically this would be "somebodied"
+"SPH*BD": "somebody'd", /added
+"SPH-BS": "somebody is", /changed from "somebodies" (which you can get via SPH-B/-S or SPH-B/Z, is rare enough used word it doesn't need a dedicated single stroke imho)
+"SPH-BZ": "somebody has", /added - note orthographically this would be 'somebodies' but SPH-B/-S or SPH-B/Z will work for 'somebodies'
+"SPH*BS": "somebody's", /added
+
+(numerous 'someone' options, I prefer SPH-PB as the root. All of these are new entries, some bump against orthography but the orthographic strokes are nonsensicle - such as  'someoneds')
+"SPH-PBL": "someone will", /added
+"SPH*PBL": "someone'll", /added
+"SPH-PBLD": "someone would", /added
+"SPH-PBD": "someone had", /added
+"SPH*PBD": "someone'd", /added
+"SPH-PBS": "someone is", /added
+"SPH-PBZ": "someone has", /added
+"SPH*PBS": "someone's", /added
+
+(again, numerous 'something' options, I prefer SPH as the root. These are all new entries, a bit of orthographic bumping but if you really need to write  somethingeds you can double-stroke it ;D)
+SPH-LG": "something will
+SPH*LG": "something'll
+SPH-LGD": "something would
+SPH-GD": "something had
+SPH-GS": "something is
+SPH-GZ": "something has
+SPH*GS": "something's
+
+"THAS": "that is",
+"THAZ": "that has",
+"THA*S": "that's",
+"THA*D": "that'd",
+"THAF": "that have", /changed-added
+"THA*F": "that've", /already in dictionary
+"THAL": "that will", /changed from that'll
+"THA*L": "that’ll", /already in dictionary
+"THALD": "that would", /already in dictionary
+"THA*D": "that’d", /already in dictionary
+that had
+
+"THR-F": "there have", /changed, prefer THROF for thereof
+"THR*F": "there’ve", /already in dictionary
+"THR-S": "there is", /changed from there's
+"THR-Z": "there has", /already in dictionary
+"THR*S": "there’s", /already in dictionary
+"THR-L": "there will", /changed-swapped from there'll
+"THR*L": "there’ll", /already in dictionary
+"THR-LD": "there would", /already in dictionary
+"THR-D": "there had", /changed from there'd
+"THR*D", "there’d", /already in dictionary
+"THR-R", "there are", /already in dictionary
+"THR*R", "there're", /added
+
+(I prefer THAOES for these, I find myself shifting more and more to phonetic options on a lot of these common words over time!)
+"THAOELS", "these will", /added
+"THAO*ELS", "these'll", /added
+"THAOERS", "these are", /already in dictionary
+"THAO*ERS", "these're", /added
+
+
+"THER": "they are", /swapped
+"TH*ER": "they’re", /swapped
+"THEF": "they have", /changed-added
+"TH*EF": "they’ve", /added
+"THEL": "they will", /changed-swapped from they'll
+"TH*EL": "they’ll", /added
+"THELD": "they would", /already in dictionary
+"THED": "they had", /swapped from they'd
+"TH*ED": "they'd", /added
+
+"TH-L": "this will", /changed from this'll
+"TH*L": "this’ll", /already in dictionary
+"TH-S": "this is", /already in dictionary
+this's
+this'd
+
+
+(several options for 'those,' I prefer THOEZ, but sometimes also use THOES because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts)
+"THOELS": "those will", /added
+"THOELZ": "those will", /added
+"THO*ELS": "those'll", /added
+"THO*ELZ": "those'll", /added
+"THOELDZ": "those would", /added
+"THOED": "those had", /added, note dropped the S due to SD fingering impossibility so doesn't follow pattern
+"THOEDZ": "those had", /added
+"THO*ED": "those'd", /added, note dropped the S due to SD fingering impossibility so doesn't follow pattern
+"THO*EDZ": "those'd", /added for Z consistency
+"THOEFS": "those of", /already in dictionary as an 'of' brief, so I made the Z variant the 'have' phrase ender for the 'those' family, so this breaks pattern somewhat)
+"THOEFZ": "those have",
+"THOEFZ": "those of", /added
+"THO*EFS": "those've", /added
+"THO*ERZ": "those are", /added
+"THO*ERZ": "those're", /added
+
+(Several options for 'was,' I prefer WA- as the root, but that creates numerous conflicts, hrm... come back to this)
+was it
+Was not
+Wasn’t
+
+"WER": "we are",
+"WAOER": "we are", /changed, for consistency - phonetic
+"W*ER": "we’re", /added to be consistent with WER
+"WAO*ER": "we're", /already in dictionary - phonetic
+"WAOEF": "we have", /changed from we've
+"W*EF": "we’ve", /already in dictionary
+"WAO*EF": "we've", /changed from 'weave' - WAEF meets using spelling for homophones rule (and there's that WEF oddity for weave, which could be changed to "we have" if prefer WE root)
+"WAOEL": "we will", /changed from we'll
+"WAO*EL": "we’ll", /already in dictionary
+we would
+we had
+"WAO*ED", "we’d", /changed from weed
+"WAOED", "weed", /changed to weed
+we'd've
+
+"WR-PBT": "were not", /changed from weren't
+"WR*PBT": "weren’t", /added
+
+"WHAS": "what is", /already in dictionary
+"WHAZ": "what has",
+"WHA*S": "what’s",
+"WHA*Z": "what as",
+"WHAL": "what will", /changed from what'll
+"WHA*L": "what’ll", /already in dictionary
+"WHALD": "what would", /already in dictionary
+"WHAD": "what had", /already in dictionary
+"WHA*D": "what’d", /already in dictionary
+what are
+what're
+what have
+what've
+
+when's
+when're
+when've
+when'd
+when'll
+
+where's
+where're
+where've
+where'd
+where'll
+
+which's
+which're
+which've
+which'd
+which'll
+
+"WHOR": "who are", /changed-added - "whore" has WHOER version
+"WHO*R": "who’re", /added
+"WHOF": "who have", /changed-added
+"WHO*F": "who’ve", /already in dictionary
+"WHOS": "who is", /already in dictionary
+who has
+"WHO*S": "who’s", /already in dictionary
+"WHOL": "who will", /changed from who'll
+"WHO*L": "who’ll", /already in dictionary
+"WHOLD": "who would", /already in dictionary
+"WHOD": "who had", /already in dictionary
+"WHO*D": "who’d", /already in dictionary
+
+why's
+why're
+why've
+why'd
+why'll
+
+"HR-PBT", "will not", /already in dictionary
+"HR*PBT", "won't", /added, just to be consistent with root phrase
+"WOPBT", "wont", /changed from wouldn't
+"WO*PBT", "won't", /changed from wont
+
+"WOUF": "would have",
+"WO*UF": "would’ve",
+"WOUPBT": "would not", /added - note I'm trying to prefer WOU root
+"WO*UPBT":, "wouldn’t", /added
+
+"UR": "you are",
+"*UR": "you’re",
+"UF": "you have", /changed
+"U*F": "you’ve", /changed from 'UV'
+"U*F/U*F": "UV", /added so there's still an entry for UV
+"UL": "you will", /changed from you'll
+"*UL": "you’ll", /added
+"ULD": "you would", /already in dictionary
+"UD": "you had", /changed from you'd
+"*UD": "you’d", /already in dictionary
+"KWRAUL": "you all", /changed from ya'll
+"KWRA*UL": "y'all", /already in dictionary
+
+
+
