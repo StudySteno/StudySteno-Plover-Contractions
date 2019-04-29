@@ -98,12 +98,11 @@ THE|they _(don't get me started on the conflicts caused by a phonetic entry for 
 THR|there
 TK-|did
 TKOE|do
-TKU|does  
-_(By default, "does" is `TKUZ`, `TKOS` or `TKAOS`. For phonetic reasons, I prefer the `TKUZ` entry for "does," and for finger sanity reasons, I drop the `Z` when briefing phrases, therefore, the left-hand starter brief for "does" is `TKU`.)_
+TKU|does _(By default, "does" is `TKUZ`, `TKOS` or `TKAOS`. For phonetic reasons, I prefer the `TKUZ` entry for "does," and for finger sanity reasons, I drop the `Z` when briefing phrases, therefore, the left-hand starter brief for "does" is `TKU`.)_
 THAOES|these
 WO, WOU|would _(note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)_
-THOES, THOEZ|those _(note there are several options for 'those' in the default dictionary. I prefer `THOEZ`, but sometimes also use `THOES` because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts.  Sometimes the ending `S` or `Z` is entirely dropped, and its likely that I'll make that my standard approach in the future.)_
-WAOE|we _(note some `WE`-based entries still exist for some phrases due to conflicts, I do prefer phonetic version although still resolving conflicts.)_
+THOES, THOEZ, THOE|those _(note there are several options for 'those' in the default dictionary. I prefer `THOEZ`, but sometimes also use `THOES` because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts.  Sometimes the ending `S` or `Z` is entirely dropped, and its likely that I'll make that my standard approach in the very near future.)_
+WAOE|we _(note some `WE`-based entries still exist for some phrases due to conflicts, I do prefer phonetic version of `WAOE`, although still resolving conflicts.)_
 WHA|what
 WHO|who
 WR-|were
@@ -171,11 +170,12 @@ Fortunately, there are very few double contractions - that is, a root word with 
 # HOW TO INSTALL
 Simply download _contractions.json_ file, then add it to your Plover dictionaries by clicking the big, round green + button at the bottom of the main screen.  By clicking and dragging, move _contractions.json_ so that it is **higher** priority then _main.json_ and _commands.json_ dictionaries, but either below or above your _user.json_ dictionary file in priority, depending on your preference. 
 
-**DO NOT install the 'annotated dictionary' file.** This is a reference file noting the changes I've made, the entries I've added, the ones that don't have entries yet, and other little comments.  Feel free to refer to it, of course, but don't install it!
+If you would like to view documentation on all the changes/edits/additions/etc. that the contractions.json file overlays on the default dictionary, refer to the "Documentation of Dictionary Changes.md" file.  
 
 # NEED TO DO/FIX/FINISH
 
 - [ ] I'm not happy with the 'I' family of briefs, still stewing on which approach I prefer.  Some existing entries use `EU` for I, some use `AOEU`, there's a number of other bits going on in the "I" family, due to how many potential conflicts can result.
+- [ ] Make up my freakin' mind already regarding "those" briefs/phrases.
 - [ ] Need to add phrases ending with "should" and "would" where they don't already exist (although existing 'd contractions work for phrases ending with should and would, of course)
 - [ ] Need to make the "those" family consistent, leaning towards just droping the tucked final `-S` or `Z` and using `THOE` as the root starter brief.
 - [ ] Need to finish/fix the following phrase families:  Was, when, where, which, why, couple of other less common contractions.  There are several options for 'was,' I prefer `WA-` as the root, but that creates numerous conflicts, hrm... come back to this!
