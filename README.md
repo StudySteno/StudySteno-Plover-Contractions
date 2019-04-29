@@ -72,20 +72,19 @@ Brief|Word
 -----|------
 AOEU, EU|I (see note in the "tricky bits" section.)
 K-|can
-KO-|could (I'm slowly weeding these versions out to be honest, prefering the OU version)
-KOU-|could (preferred)
+KO-, KOU |could (`KOU` is preferred.  Note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)
 H|had 
 HA|has
-HAOE|he (note that "HE"-based entries still exist for some phrases, I prefer phonetic versions).
+HAOE|he (note that `HE`-based entries still exist for some phrases, I prefer phonetic versions).
 HAOER|here
 HOU|how
 HR-|will
 HRET|let
-PHAOEU|might (note the dropping of the ending T for purposes of briefing)
-PHU|must (note the dropping of the ending T for purposes of briefing)
+PHAOEU|might (note the dropping of the ending `-T` for purposes of briefing)
+PHU|must (note the dropping of the ending `-FT` for purposes of briefing)
 R-|are
-SHAOE|she (note that "SHE"-based entries still exist for some phrases, I prefer phonetic versions.)
-SHO, SHOU|should (note I'm migrating away from using SHO, as I prefer the SHOU version.)
+SHAOE|she (note that `SHE`-based entries still exist for some phrases, I prefer phonetic versions.)
+SHO, SHOU|should (note I'm migrating away from using `SHO`, as I prefer the `SHOU` version.)
 SPH|somebody
 SPH-LG|something
 SPH-PB|someone
@@ -97,11 +96,11 @@ THE|they (don't get me started on the conflicts caused by a phonetic entry for "
 THR|there
 TK-|did
 TKOE|do
-TKU|does (technically, "does" is TKUZ but for purposes of briefing phrases, I drop the Z)
+TKU|does (technically, "does" is `TKUZ` but for purposes of briefing phrases, I drop the `Z`)
 THAOES|these
-WO, WOU|would (note I'm migrating away from using WO, as I prefer the WOU version, although sorting out conflicts is ongoing.)
-THOES, THOEZ|those (note there are several options for 'those' in the default dictionary. I prefer THOEZ, but sometimes also use THOES because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts.  Sometimes the ending S or Z is entirely dropped.)
-WAOE|we (note some "WE"-based entries still exist for some phrases due to conflicts, I do prefer phonetic version although still resolving conflicts).
+WO, WOU|would (note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)
+THOES, THOEZ|those (note there are several options for 'those' in the default dictionary. I prefer `THOEZ`, but sometimes also use `THOES` because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts.  Sometimes the ending `S` or `Z` is entirely dropped, and its likely that I'll make that my standard approach in the future.)
+WAOE|we (note some `WE`-based entries still exist for some phrases due to conflicts, I do prefer phonetic version although still resolving conflicts).
 WHA|what
 WHO|who
 WR-|were
@@ -132,7 +131,7 @@ Brief|Word
 
 ## Y'all and you all
 
-"y'all" is written phonetically with *, not with starter U:  `KWRA*UL` = y'all
+"y'all" is written phonetically with `*`, not with starter `U`:  `KWRA*UL` = y'all
 
 But since `U-L` is "you will," I use `KWRAUL` for "you all", which is consistent with the pattern for y'all but not phonetically true.
 
@@ -140,22 +139,22 @@ But since `U-L` is "you will," I use `KWRAUL` for "you all", which is consistent
 
 Technically, "won't" is the contraction for "will not", so the dictionary contains entries for phonetic "won't" and (semi) logical "will not" contracted:
 
-> `HR-PBT` "will not"  
-> `HR*PBT` "won't"  
-> `WO*PBT` "won't"
+> `HR-PBT` will not  
+> `HR*PBT` won't  
+> `WO*PBT` won't
 
 Note that the entry `WOPBT` was changed to the word "wont" which, while it's not a commonly-used word anymore, should remain in the dictionary.
 
 ## Anything that starts with I
 Some default entries use `EU`, some  use `AOEU` ... sigh... resolving the conflicts in this family is a challenge that probably dates back to 1911... this is a work in progress.  For the most part, most entries use `AOEU` for I, but there are some noteable exceptions, such as:
 
-> `EULD` "I would" (because `AOEULD` is "island" and although there are other entries for "island" I kinda like this one...)
-> `EU*LD` "I'd" (because `*EUD` maps to "Idaho")  
-> `AOEUD` "I had" (because EUD maps to id and just don't get me started whinging on all the variations of I.D. ID id ...)  
-> `AO*EUD` "I’d"
+> `EULD` I would (because `AOEULD` is "island" and although there are other entries for "island" I kinda like this one...)
+> `EU*LD` I'd (because `*EUD` maps to "Idaho")  
+> `AOEUD` I had (because EUD maps to id and just don't get me started whinging on all the variations of I.D. ID id ...)  
+> `AO*EUD` I’d
 
 # HOW TO INSTALL
-Simply download _contractions.json_ file, then add it to your Plover dictionaries by clicking the big, round green + button at the bottom of the main screen.  By clicking and dragging, move _contractions.json_ so that it is **higher** priority then _main.json_ and _commands.json_ dictionarys, but either below or above your _user.json_ dictionary file in priority, depending on your preference. 
+Simply download _contractions.json_ file, then add it to your Plover dictionaries by clicking the big, round green + button at the bottom of the main screen.  By clicking and dragging, move _contractions.json_ so that it is **higher** priority then _main.json_ and _commands.json_ dictionaries, but either below or above your _user.json_ dictionary file in priority, depending on your preference. 
 
 # NEED TO DO/FIX/FINISH
 
