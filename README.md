@@ -70,21 +70,21 @@ Most of these will already be familiar to you, as I utlized existing norms as mu
 
 Brief|Word
 -----|------
-AOEU, EU|I (see note in the "tricky bits" section.)
+AOEU, EU|I _(see note in the "tricky bits" section.)_
 K-|can
-KO-, KOU |could (`KOU` is preferred.  Note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)
+KO-, KOU |could _(`KOU` is preferred.  Note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)_
 H|had 
 HA|has
-HAOE|he (note that `HE`-based entries still exist for some phrases, I prefer phonetic versions).
+HAOE|he _(note that `HE`-based entries still exist for some phrases, I prefer phonetic versions)._
 HAOER|here
 HOU|how
 HR-|will
 HRET|let
-PHAOEU|might (note the dropping of the ending `-T` for purposes of briefing)
-PHU|must (note the dropping of the ending `-FT` for purposes of briefing)
+PHAOEU|might _(note the dropping of the ending `-T` for purposes of briefing)_
+PHU|must _(note the dropping of the ending `-FT` for purposes of briefing)_
 R-|are
-SHAOE|she (note that `SHE`-based entries still exist for some phrases, I prefer phonetic versions.)
-SHO, SHOU|should (note I'm migrating away from using `SHO`, as I prefer the `SHOU` version.)
+SHAOE|she _(note that `SHE`-based entries still exist for some phrases, I prefer phonetic versions.)_
+SHO, SHOU|should _(note I'm migrating away from using `SHO`, as I prefer the `SHOU` version.)_
 SPH|somebody
 SPH-LG|something
 SPH-PB|someone
@@ -92,15 +92,15 @@ SR-|have
 T-|it
 TH|this
 THA|that
-THE|they (don't get me started on the conflicts caused by a phonetic entry for "they")
+THE|they _(don't get me started on the conflicts caused by a phonetic entry for "they")_
 THR|there
 TK-|did
 TKOE|do
-TKU|does (technically, "does" is `TKUZ` but for purposes of briefing phrases, I drop the `Z`)
+TKU|does _(technically, "does" is `TKUZ` but for finger sanity reasons, I drop the `Z` when briefing phrases)_
 THAOES|these
-WO, WOU|would (note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)
-THOES, THOEZ|those (note there are several options for 'those' in the default dictionary. I prefer `THOEZ`, but sometimes also use `THOES` because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts.  Sometimes the ending `S` or `Z` is entirely dropped, and its likely that I'll make that my standard approach in the future.)
-WAOE|we (note some `WE`-based entries still exist for some phrases due to conflicts, I do prefer phonetic version although still resolving conflicts).
+WO, WOU|would _(note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)_
+THOES, THOEZ|those _(note there are several options for 'those' in the default dictionary. I prefer `THOEZ`, but sometimes also use `THOES` because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts.  Sometimes the ending `S` or `Z` is entirely dropped, and its likely that I'll make that my standard approach in the future.)_
+WAOE|we _(note some `WE`-based entries still exist for some phrases due to conflicts, I do prefer phonetic version although still resolving conflicts.)_
 WHA|what
 WHO|who
 WR-|were
@@ -117,7 +117,7 @@ Brief|Word
 -LD|would
 -PBT|not
 -R|are
--S|is (sometimes "us" such as in "let us", and of course equivalent to "has" when used for contractions)
+-S|is _(or "us" such as in "let us", and of course equivalent to "has" when used for contractions)_
 -Z|has
 
 ## To make the phrase a contraction, simply add `*` to the brief.
@@ -134,6 +134,8 @@ Brief|Word
 "y'all" is written phonetically with `*`, not with starter `U`:  `KWRA*UL` = y'all
 
 But since `U-L` is "you will," I use `KWRAUL` for "you all", which is consistent with the pattern for y'all but not phonetically true.
+
+Note: "Y'all" is **_never, ever_** written as "ya'll" and if you insist on writing it as "ya'll", y'all can just go eat lemons.
 
 ## Won't and will not
 
