@@ -49,7 +49,7 @@ Except... the dictionary isn't consistent in its inconsistencies.  For example:
 
 Then there's the entire would/could/should family of briefs and phrases... sometimes they use `WO`/`CO`/`SHO` as the starter, sometimes `WOU`/`COU`/`SHOU` ... and contracted phrases are usually using `*` while non-contracted phrases are not....
 
-Sigh... while there are patterns within the patterns and virtually every entry whether for a contraction or non-contracted phrase actually does hold true to the principles of steno, _having a singular, (mostly) all-encompassing approach to briefing contractions and their non-contracted phrase is preferable to trying to remember which brief pair uses which of the various approaches,_ to say the least.
+Sigh... while there are patterns within the patterns and virtually every entry whether for a contraction or non-contracted phrase actually does hold true to the principles of steno, **_having a singular, (mostly) all-encompassing approach to briefing contractions and their non-contracted phrase is preferable to trying to remember which brief pair uses which of the various approaches,_** to say the least.
 
 Of course, as many before me can attest to, I quickly realized if one keeps the non-`*` version of a brief pair to be the contracted version, and the `*` version to be the non-contracted version,  you're running into some heavy-duty mental gymnastics trying to remember which common phrase briefs use `*` and which don't... and the simple fact that there's no entry whatsoever for a ton of common non-contracted contractions.
 
@@ -157,6 +157,8 @@ Some default entries use `EU`, some  use `AOEU` ... sigh... resolving the confli
 
 # HOW TO INSTALL
 Simply download _contractions.json_ file, then add it to your Plover dictionaries by clicking the big, round green + button at the bottom of the main screen.  By clicking and dragging, move _contractions.json_ so that it is **higher** priority then _main.json_ and _commands.json_ dictionaries, but either below or above your _user.json_ dictionary file in priority, depending on your preference. 
+
+**DO NOT install the 'annotated dictionary' file.** This is a reference file noting the changes I've made, the entries I've added, the ones that don't have entries yet, and other little comments.  Feel free to refer to it, of course, but don't install it!
 
 # NEED TO DO/FIX/FINISH
 
