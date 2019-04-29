@@ -1,5 +1,5 @@
 # StudySteno-Contractions
-My [Plover](http://www.openstenoproject.org/) steno dictionary of contractions and briefs for the related non-contracted phrase, based on Waleed's approach to writing contractions with an asterisk (*). I think his approach is genius, so over time I integrated the use of * for contractions into my own dictionary. See https://waleedkhan.name/blog/my-steno-system/#use-asterisks-for-apostrophes-in-contractions 
+My [Plover](http://www.openstenoproject.org/) steno dictionary of contractions and briefs for the related non-contracted phrase, based on [Waleed Khan](https://waleedkhan.name]'s approach to writing contractions with an asterisk (*). I think his approach is genius, so over time I integrated the use of * for contractions into my own dictionary. See https://waleedkhan.name/blog/my-steno-system/#use-asterisks-for-apostrophes-in-contractions for details.
 
 Fair warning, I tend to over-explain the obvious.
 
@@ -147,12 +147,12 @@ Technically, "won't" is the contraction for "will not", so the dictionary contai
 Note that the entry `WOPBT` was changed to the word "wont" which, while it's not a commonly-used word anymore, should remain in the dictionary.
 
 ## Anything that starts with I
-Sometimes entries use EU, sometimes they use AOEU ... sigh... resolving the conflicts in this family is a challenge that probably dates back to 1911... for the most part, most I family phrases and contracted phrases use AOEU for I, but there are some noteable exceptions, such as:
+Some default entries use `EU`, some  use `AOEU` ... sigh... resolving the conflicts in this family is a challenge that probably dates back to 1911... this is a work in progress.  For the most part, most entries use `AOEU` for I, but there are some noteable exceptions, such as:
 
-> `EULD` "I would"  
-> "EU*LD": "I'd" (can't use *EUD because that maps to "Idaho")  
-> "AOEUD": "I had" (can't use EUD because that maps to id and just don't get me started whinging ...)  
-> "AO*EUD": "I’d"
+> `EULD` "I would" (because `AOEULD` is "island" and although there are other entries for "island" I kinda like this one...)
+> `EU*LD` "I'd" (because `*EUD` maps to "Idaho")  
+> `AOEUD` "I had" (because EUD maps to id and just don't get me started whinging on all the variations of I.D. ID id ...)  
+> `AO*EUD` "I’d"
 
 # HOW TO INSTALL
 Simply download _contractions.json_ file, then add it to your Plover dictionaries by clicking the big, round green + button at the bottom of the main screen.  By clicking and dragging, move _contractions.json_ so that it is **higher** priority then _main.json_ and _commands.json_ dictionarys, but either below or above your _user.json_ dictionary file in priority, depending on your preference. 
