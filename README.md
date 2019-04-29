@@ -158,9 +158,8 @@ Simply download _contractions.json_ file, then add it to your Plover dictionarie
 
 # NEED TO DO/FIX/FINISH
 
-- [ ] I'm not happy with the 'I' family of briefs, still stewing on which approach I prefer.  Some existing entries use EU for I, some use AOEU, there's a number of other bits going on in the "I" family, due to how many potential conflicts can result.
+- [ ] I'm not happy with the 'I' family of briefs, still stewing on which approach I prefer.  Some existing entries use `EU` for I, some use `AOEU`, there's a number of other bits going on in the "I" family, due to how many potential conflicts can result.
 - [ ] Need to add phrases ending with "should" and "would" where they don't already exist (although existing 'd contractions work for phrases ending with should and would, of course)
-- [ ] Need to make the "those" family consistent, leaning towards just droping the tucked S or Z and using THOE as the root starter brief.
-- [ ] Need to finish/fix the following phrase families:  Was, when, where, which, why, 
-- [ ] Several options for 'was,' I prefer WA- as the root, but that creates numerous conflicts, hrm... come back to this)
+- [ ] Need to make the "those" family consistent, leaning towards just droping the tucked final `-S` or `Z` and using `THOE` as the root starter brief.
+- [ ] Need to finish/fix the following phrase families:  Was, when, where, which, why, couple of other less common contractions.  There are several options for 'was,' I prefer `WA-` as the root, but that creates numerous conflicts, hrm... come back to this!
 
