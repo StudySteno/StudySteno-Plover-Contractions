@@ -74,18 +74,18 @@ Brief|Word
 -----|------
 AOEU, EU|I _(see note in the "tricky bits" section.)_
 K-|can
-KO-, KOU |could _(`KOU` is preferred.  Note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)_
+KO-, KOU |could _(`KOU` is preferred.  Note I'm migrating away from using `KO`, as I prefer the `KOU` version, although sorting out conflicts is ongoing.)_
 H|had 
 HA|has
-HAOE|he _(note that `HE`-based entries still exist for some phrases, I prefer phonetic versions)._
+HAOE|he _(note that `HE`-based entries still exist for some phrases, I prefer the phonetic `HAOE` entries)._
 HAOER|here
 HOU|how
 HR-|will
 HRET|let
-PHAOEU|might _(note the dropping of the ending `-T` for purposes of briefing)_
-PHU|must _(note the dropping of the ending `-FT` for purposes of briefing)_
+PHAOEU|might _(note the dropping of the ending `-T` for purposes of briefing and finger sanity)_
+PHU|must _(note the dropping of the ending `-FT` for purposes of briefing and finger sanity)_
 R-|are
-SHAOE|she _(note that `SHE`-based entries still exist for some phrases, I prefer phonetic versions.)_
+SHAOE|she _(note that `SHE`-based entries still exist for some phrases, I prefer the phonetic `SHAOE` entries.)_
 SHO, SHOU|should _(note I'm migrating away from using `SHO`, as I prefer the `SHOU` version.)_
 SPH|somebody
 SPH-LG|something
@@ -98,7 +98,8 @@ THE|they _(don't get me started on the conflicts caused by a phonetic entry for 
 THR|there
 TK-|did
 TKOE|do
-TKU|does _(technically, "does" is `TKUZ` but for finger sanity reasons, I drop the `Z` when briefing phrases)_
+TKU|does  
+_(By default, "does" is `TKUZ`, `TKOS` or `TKAOS`. For phonetic reasons, I prefer the `TKUZ` entry for "does," and for finger sanity reasons, I drop the `Z` when briefing phrases, therefore, the left-hand starter brief for "does" is `TKU`.)_
 THAOES|these
 WO, WOU|would _(note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)_
 THOES, THOEZ|those _(note there are several options for 'those' in the default dictionary. I prefer `THOEZ`, but sometimes also use `THOES` because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts.  Sometimes the ending `S` or `Z` is entirely dropped, and its likely that I'll make that my standard approach in the future.)_
