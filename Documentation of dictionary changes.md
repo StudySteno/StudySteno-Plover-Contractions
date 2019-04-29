@@ -11,134 +11,134 @@ You'll also find some brief notes explaining some of the changes and/or choices 
 "AEUPBT": "ain't", 
 "AOEUF": "I've"
 "KOUF": "could have",   
-"KO*UF": "could’ve",   
-"KWRA*UL": "y'all",   
+"KO\*UF": "could’ve",   
+"KWRA\*UL": "y'all",   
 "HEZ": "he has",   
-"HAO*ES": "he’s",   
-"HAO*EL": "he'll",   
-"HAO*ERS": "here’s",  
-"HO*US": "how's",   
-"HO*UF": "how've",   
+"HAO\*ES": "he’s",   
+"HAO\*EL": "he'll",   
+"HAO\*ERS": "here’s",  
+"HO\*US": "how's",   
+"HO\*UF": "how've",   
 "HOULD": "how would",   
-"HO*UD": "how'd",   
+"HO\*UD": "how'd",   
 "HR-PBT", "will not",   
-"AO*EUF": "I’ve",   
+"AO\*EUF": "I’ve",   
 "EULD": "I would",   
 "PHAOEUF": "might have",  
 "SHES": "she is",   
 "SHEZ": "she has",   
-"SHAO*ES": "she's",   
-"SHAO*EL": "she’ll,"   
+"SHAO\*ES": "she's",   
+"SHAO\*EL": "she’ll,"   
 "SHELD": "she would," (already in dictionary, but not consistent with preferred SHAOE root :( )  
-"SHAO*ED": "she’d",   
+"SHAO\*ED": "she’d",   
 "SHOUF": "should have",  
-"SHO*UF": "should’ve",  
-"SHO*PBT": "shouldn't",   
+"SHO\*UF": "should’ve",  
+"SHO\*PBT": "shouldn't",   
 "T-LD": "it would",   
-"T*D": "it’d",   
+"T\*D": "it’d",   
 "-TS": "it is",   
 "T-Z": "it has",   
-"TH*L": "this’ll",   
+"TH\*L": "this’ll",   
 "TH-S": "this is",   
-"THA*F": "that've",   
-"THA*L": "that’ll",  
+"THA\*F": "that've",   
+"THA\*L": "that’ll",  
 "THALD": "that would",  
 "THAS": "that is",  
-"THA*D": "that’d",   
+"THA\*D": "that’d",   
 "THAOERS", "these are",  
 "THELD": "they would",   
-"THR*F": "there’ve",   
+"THR\*F": "there’ve",   
 "THR-Z": "there has",   
-"THR*S": "there’s",   
-"THR*L": "there’ll",   
+"THR\*S": "there’s",   
+"THR\*L": "there’ll",   
 "THR-LD": "there would",   
-"THR*D", "there’d",   
+"THR\*D", "there’d",   
 "THR-R", "there are",   
 "ULD": "you would",   
-"*UD": "you’d",   
-"W*UPBS": "one’s",   
-"WAO*ER": "we're",   
-"W*EF": "we’ve",   
-"WAO*EL": "we’ll",   
+"\*UD": "you’d",   
+"W\*UPBS": "one’s",   
+"WAO\*ER": "we're",   
+"W\*EF": "we’ve",   
+"WAO\*EL": "we’ll",   
 "WHAS": "what is",   
-"WHA*L": "what’ll",   
+"WHA\*L": "what’ll",   
 "WHALD": "what would",   
 "WHAD": "what had",   
-"WHA*D": "what’d",  
-"WHA*S": "what’s",   
+"WHA\*D": "what’d",  
+"WHA\*S": "what’s",   
 "WHAZ": "what has",  
-"WHO*F": "who’ve",   
+"WHO\*F": "who’ve",   
 "WHOS": "who is",   
-"WHO*S": "who’s",   
-"WHO*L": "who’ll",   
+"WHO\*S": "who’s",   
+"WHO\*L": "who’ll",   
 "WHOLD": "who would",   
 "WHOD": "who had",   
-"WHO*D": "who’d",  
+"WHO\*D": "who’d",  
 "WOUF": "would have",  
-"WO*UF": "would’ve",  
+"WO\*UF": "would’ve",  
 
 # Brief pair entries that were swapped with each other
 
 These entries generally had the `*` brief be the non-contracted phrase, and the non-`*` brief be the contracted phrase. So, the definitions for these were simply swapped with each other.  This also includes brief pairs where both entries were identical, so one of the briefs was changed to be either a contraction or the non-contracted phrase, as appropriate.
 
 "R-PBT": "are not", /swapped  
-"R*PBT": "aren’t",
+"R\*PBT": "aren’t",
 
 "K-PBT": "cannot", /swapped  
-"K*PBT": "can’t",
+"K\*PBT": "can’t",
 
 "T-L": "it will", /changed from it'll  
-"T*L": "it’ll", 
+"T\*L": "it’ll", 
 
 "TKOEPBT": "do not", /changed from don't  
-"TKO*EPBT": "don’t", /changed from Don't
+"TKO\*EPBT": "don’t", /changed from Don't
 
 "UR": "you are",  
-"*UR": "you’re",
+"\*UR": "you’re",
 
 # Brief pair entries where existing entry was changed, and a new corresponding brief to complete the pair was created.
 
 "HPBT": "had not", /changed from hadn't  
-"H*PBT": "hadn’t", /added
+"H\*PBT": "hadn’t", /added
 
 "HAPBT": "has not", /changed from hadn't  
-"HA*PBT": "hasn’t", /added
+"HA\*PBT": "hasn’t", /added
 
 "SPBT": "is not", /changed from isn't  
-"S*PBT": "isn’t", /added
+"S\*PBT": "isn’t", /added
 
 "SR-PBT": "have not", /changed from haven't  
-"SR*PBT": "haven’t", /added
+"SR\*PBT": "haven’t", /added
 
 "THER": "they are", /changed from "they're"  
-"TH*ER": "they’re", /added
+"TH\*ER": "they’re", /added
 
 "THEF": "they have", /changed from "they've  
-"TH*EF": "they’ve", /added 
+"TH\*EF": "they’ve", /added 
 
 "TK-PBT": "did not", /changed from didn't  
-"TK*PBT": "didn’t", /added
+"TK\*PBT": "didn’t", /added
 
 "TKAEURPBT": "dare not", /changed from daren't  
-"TKA*EURPBT": "daren't", /added
+"TKA\*EURPBT": "daren't", /added
 
 "TKUPBT": "does not", /changed from doesn't  
-"TK*UPBT: "doesn’t", /added
+"TK\*UPBT: "doesn’t", /added
 
 "PHUPBT": "must not", /changed from mustn't  
-"PH*UPBT": "mustn’t", /added
+"PH\*UPBT": "mustn’t", /added
 
 "UL": "you will", /changed from you'll  
-"*UL": "you’ll", /added
+"\*UL": "you’ll", /added
 
 "WR-PBT": "were not", /changed from "weren't"  
-"WR*PBT": "weren’t", /added
+"WR\*PBT": "weren’t", /added
 
-#Brief pair entries where one half of the pair existed and is unchanged, and new corresponding brief to complete the pair was created.
+# Brief pair entries where one half of the pair existed and is unchanged, and new corresponding brief to complete the pair was created.
 
 All of these are new entries.  Some may have preexisting non-conforming entries, but that's not documented here.  Plover has a wonderful lookup tool you can use to find those entries ;)
 
-"PHAO*EUF": "might’ve", /added
+"PHAO\*EUF": "might’ve", /added
 
 # Brief pair entries where just one half of the pair was changed
 
@@ -154,24 +154,24 @@ In general, these are pairs where both entries are identical, so only needed to 
 
 # Changes involving unrelated words
 
-"HAO*ED": "he’d", /changed from heed  
+"HAO\*ED": "he’d", /changed from heed  
 "HAOED": "he had", /changed from he'd  
 "HAOED": "heed", /changed from he'd
 
 "HOUZ": "how has", /changed from 'house' to 'how has', leaving the HOUS entry for 'house'
 
 "KOPBT": "could not", _(Changed to couldn't, for consistency, even though I'm migrating away from `KO` for "could")_  
-"KO*PBT": "couldn’t", _(Changed from "cotton" - I don't mind double-stroking it (really should alter this all to always use `KOU` as the root and avoid conflicts/issues like this one)
+"KO\*PBT": "couldn’t", _(Changed from "cotton" - I don't mind double-stroking it (really should alter this all to always use `KOU` as the root and avoid conflicts/issues like this one)
 
 "UF": "you have", /changed from "you've"  
-"U*F": "you’ve", /changed from "UV"  
-"U*F/U*F": "UV", /added so there's still an entry for UV, or just fingerspell it...
+"U\*F": "you’ve", /changed from "UV"  
+"U\*F/U\*F": "UV", /added so there's still an entry for UV, or just fingerspell it...
 
 # New entries for briefs and phrases that already exist, but don't conform to my patterns
 
 "HAOEZ": "he has",  
 "WOUPBT": "would not", _(Note: This pair was added since I prefer `WOU` for "would" and `-PBT` for "not".)_  
-"WO*UPBT":, "wouldn’t",
+"WO\*UPBT":, "wouldn’t",
 
 
 # New briefs and phrases
@@ -184,49 +184,49 @@ There are a number of "here" briefs and phrases, but the ones below do not curre
 
 "HAOERZ": "here has",  
 "HAOERL": "here will",  
-"HAO*ERL": "here'll",   
+"HAO\*ERL": "here'll",   
 "HAOERLD": "here would",  
-"HAO*ERD": "here'd",
+"HAO\*ERD": "here'd",
 
 
 ### Somebody `SPH-B` 
 There are numerous entries/options for the word "somebody." I prefer `SPH-B` as the brief for the left-hand phrase starter brief (or as I tend to call it, the "root" brief). All of these are new entries, some bump against orthography, but the orthographic strokes are generally nonsensicle words.  If you really want to write "somebodieds" you can still stroke it using orthographic norms (`SPH-B/-D/-S` or `SPH-BD/-S`) 
 
 "SPH-BL": "somebody will",  
-"SPH*BL": "somebody'll",  
+"SPH\*BL": "somebody'll",  
 "SPH-BLD": "somebody would",  
 "SPH-BD": "somebody had",  
-"SPH*BD": "somebody'd",   
+"SPH\*BD": "somebody'd",   
 "SPH-BS": "somebody is",  
 "SPH-BZ": "somebody has",  
-"SPH*BS": "somebody's",   
+"SPH\*BS": "somebody's",   
 
 ### Someone `SPH-PB`
 There are numerous entries/options for the word "someone." I prefer `SPH-PB` as the root. All of these are new entries, some bump against orthography but the orthographic strokes are nonsensicle - such as  'someoneds'.  If you really want to write "someoneds" you can still stroke using orthographic norms (`SPH-PB/-D/-S`)
 
 "SPH-PBL": "someone will",  
-"SPH*PBL": "someone'll",   
+"SPH\*PBL": "someone'll",   
 "SPH-PBLD": "someone would",   
 "SPH-PBD": "someone had",   
-"SPH*PBD": "someone'd",   
+"SPH\*PBD": "someone'd",   
 "SPH-PBS": "someone is",   
 "SPH-PBZ": "someone has",  
-"SPH*PBS": "someone's", _(Note that there are double-stroke entries for "someone's", such as `SWUPB/AES`, but these do not conform with existing single-stroke contraction norms/entries, or my approach.)_
+"SPH\*PBS": "someone's", _(Note that there are double-stroke entries for "someone's", such as `SWUPB/AES`, but these do not conform with existing single-stroke contraction norms/entries, or my approach.)_
 
 ### Something `SPH-G`
 As with "someone", there are numerous entries/options for the word "something." I prefer `SPH-G` as the root brief for "someone." These are all new entries, a bit of orthographic bumping but if you really need to write "somethingeds" you can still stroke it using orthographic norms (`SPH-G/G/-D/-S` or perhaps `SPH-G/GD/S`)
 
 SPH-LG": "something will  
-SPH*LG": "something'll  
+SPH\*LG": "something'll  
 SPH-LGD": "something would  
 SPH-GD": "something had  
 SPH-GS": "something is  
 SPH-GZ": "something has  
-SPH*GS": "something's
+SPH\*GS": "something's
 
 ### Double contractions
 
-"KO*UFPBT": "couldn't've", _(This phrase and contraction isn't used that often, and since I'm preferring `KOU` as the root for "could," I didn't bother creating a `KO` version of this brief pair. Also, `KOFPBT` is good brief for "covenant".)_   
+"KO\*UFPBT": "couldn't've", _(This phrase and contraction isn't used that often, and since I'm preferring `KOU` as the root for "could," I didn't bother creating a `KO` version of this brief pair. Also, `KOFPBT` is good brief for "covenant".)_   
 "KOUFPBT": "could not have",
 
 # COMING SOON
