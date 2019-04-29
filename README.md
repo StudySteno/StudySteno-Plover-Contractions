@@ -7,13 +7,15 @@ Fair warning, I tend to over-explain the obvious.
 
 Brief = single-stroke abbreviation of one word
 
-Phrase = single-stroke abbreviation that represents more than one word
-
 Brief pair = a pair (or set) of briefs that represent similar or related briefs or phrases but for a minor difference between the two (such as "that'll" and "that will" - they are essentially the same words, but with the minor difference being one is a contraction and one is not).
+
+Contraction = a word or group of words resulting from shortening and/or combining two or more words into a single relative word.  Example: It is = it's  _Note:_ "Non-contracted" or "uncontracted" refers to the words used to create the contraction, before contracting it.  "It is" is non-contracted/uncontracted, "it's" is contracted/contraction.
 
 Entries = Refers specifically to entries in Plover's dictionary, but can apply to any steno dictionary.
 
 Plover = A fantastic, completely free, open source steno software program.  Plover has evolved into a full-featured, highly customizable yet simple to use program that lets anyone at all use steno to write, even if they don't have a steno machine. Plover has a great community of self-taught steno fanactics on Discord, too!  For more information about the Open Steno Project and Plover, visit http://www.openstenoproject.org/ and https://github.com/openstenoproject/plover
+
+Phrase = single-stroke abbreviation that represents more than one word
 
 Star = asterisk (*), specifically, the large center key on a steno keyboard that is represented by the `*` symbol in raw steno.
 
