@@ -13,9 +13,9 @@ Contraction = a word or group of words resulting from shortening and/or combinin
 
 Entries = Refers specifically to entries in Plover's dictionary, but can apply to any steno dictionary.
 
-Plover = A fantastic, completely free, open source steno software program.  Plover has evolved into a full-featured, highly customizable yet simple to use program that lets anyone at all use steno to write, even if they don't have a steno machine. Plover has a great community of self-taught steno fanactics on Discord, too!  For more information about the Open Steno Project and Plover, visit http://www.openstenoproject.org/ and https://github.com/openstenoproject/plover
-
 Phrase = single-stroke brief (abbreviation) that represents more than one word
+
+Plover = A fantastic, completely free, open source steno software program.  Plover has evolved into a full-featured, highly customizable yet simple to use program that lets anyone at all use steno to write, even if they don't have a steno machine. Plover has a great community of self-taught steno fanactics on Discord, too!  For more information about the Open Steno Project and Plover, visit http://www.openstenoproject.org/ and https://github.com/openstenoproject/plover
 
 Star = asterisk (*), specifically, the large center key on a steno keyboard that is represented by the `*` symbol in raw steno.
 
@@ -94,6 +94,8 @@ SR-|have
 T-|it
 TH|this
 THA|that
+THAOES|these
+THOE|those _(basically, drop the `-S` or `-Z` from the base `THOES`/`THOEZ` outline for briefing phrases)
 THE|they _(don't get me started on the conflicts caused by a phonetic entry for "they")_
 THR|there
 TK-|did

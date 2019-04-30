@@ -33,22 +33,27 @@ You'll also find some brief notes explaining some of the changes and/or choices 
 "SHAO\*ED": "she’d",   
 "SHOUF": "should have",  
 "SHO\*UF": "should’ve",  
-"SHO\*PBT": "shouldn't",   
+"SHO\*PBT": "shouldn't",  
+"SHO*UPBT": "shouldn't",
 "T-LD": "it would",   
 "T\*D": "it’d",   
-"-TS": "it is",   
+"-TS": "it is",
+"*TS": "it’s",   
+"T*S": "it's", 
 "T-Z": "it has",   
 "TH\*L": "this’ll",   
 "TH-S": "this is",   
+"THA*D": "that'd",  
 "THA\*F": "that've",   
 "THA\*L": "that’ll",  
 "THALD": "that would",  
 "THAS": "that is",  
 "THA\*D": "that’d",   
+"THAZ": "that has",
 "THAOERS", "these are",  
 "THELD": "they would",   
 "THR\*F": "there’ve",   
-"THR-Z": "there has",   
+"THR-Z": "there has",
 "THR\*S": "there’s",   
 "THR\*L": "there’ll",   
 "THR-LD": "there would",   
@@ -110,11 +115,20 @@ These entries generally had the `*` brief be the non-contracted phrase, and the 
 "SR-PBT": "have not", /changed from haven't  
 "SR\*PBT": "haven’t", /added
 
+"THED": "they had", /changed from they'd
+"TH*ED": "they'd", /added
+
+"THEL": "they will", /changed from they'll
+"TH*EL": "they’ll", /added
+
 "THER": "they are", /changed from "they're"  
 "TH\*ER": "they’re", /added
 
 "THEF": "they have", /changed from "they've  
 "TH\*EF": "they’ve", /added 
+
+"THR-S": "there is", /changed from there's  
+
 
 "TK-PBT": "did not", /changed from didn't  
 "TK\*PBT": "didn’t", /added
@@ -139,6 +153,9 @@ These entries generally had the `*` brief be the non-contracted phrase, and the 
 All of these are new entries.  Some may have preexisting non-conforming entries, but that's not documented here.  Plover has a wonderful lookup tool you can use to find those entries ;)
 
 "PHAO\*EUF": "might’ve", /added
+"SH*ES": "she’s", /added, even though I prefer `SHAOE` for "shoes", `SHES` is already "she is" by default, so might as well add this.
+"THAO*ERS", "these're",
+
 
 # Brief pair entries where just one half of the pair was changed
 
@@ -147,12 +164,26 @@ In general, these are pairs where both entries are identical, so only needed to 
 "AOEUF": "I have", /changed from "I've"
 "HAOERS": "here is",  
 "HAOES": "he is",  
-"HOUD": "how had",   
-"TH-L": "this will", /changed from this'll  
-"UD": "you had",  
+"HOUD": "how had",  
+"SHAOEL": "she will", /changed from she'll  
+"SHAOES": "she is", /changed from she's  
+"SHAOEZ": "she has", / changed from she's, to fit my pattern
+"SHOUPBT": "should not", /changed from "shouldn't"
+"T-S": "it is", /changed from it's   
+"TH-L": "this will", /changed from this'll   
+"THA*S": "that's", /changed from "that as"  
+"THAF": "that have", /changed changed from that've
+"THAL": "that will", /changed from that'll
+"THR-D": "there had", /changed from there'd  
+"THR-L": "there will", /changed from there'll  
+"THR*R", "there're",  
+"UD": "you had",
+"WAOER": "we are", /changed from we're
+"WAOEL": "we will", /changed from we'll      
 "WHAL": "what will",
 
 # Changes involving unrelated words
+I *really* focused on avoiding changing the briefs for any unrelated words that just happened to sound the same as a contraction, so there's very few of these..
 
 "HAO\*ED": "he’d", /changed from heed  
 "HAOED": "he had", /changed from he'd  
@@ -163,9 +194,18 @@ In general, these are pairs where both entries are identical, so only needed to 
 "KOPBT": "could not", _(Changed to couldn't, for consistency, even though I'm migrating away from `KO` for "could")_  
 "KO\*PBT": "couldn’t", _(Changed from "cotton" - I don't mind double-stroking it (really should alter this all to always use `KOU` as the root and avoid conflicts/issues like this one)
 
+"THR-F": "there have", /changed from thereof, I prefer the existing `THROF` brief for thereof  
+
 "UF": "you have", /changed from "you've"  
 "U\*F": "you’ve", /changed from "UV"  
 "U\*F/U\*F": "UV", /added so there's still an entry for UV, or just fingerspell it...
+
+"WAO\*ED", "we’d", /changed from weed, since I want contractions to *always* use `*`
+"WAOED", "weed", /changed from we'd
+
+"WAOEF": "we have", /changed from we've
+"WAO*EF": "we've", /changed from 'weave' - WAEF meets the "using spelling to differentiate homophones" rule (ya, I know, lots of us use `*` to differentiate homophones instead of spelling, but I use "we" and "we've" way more often then "weave" and this holds true to steno principles... and then there's that `WEF` oddity for weave, which could be changed to "we have" if prefer `WE` root ... oh no, it's a rabbit hole!)
+
 
 # New entries for briefs and phrases that already exist, but don't conform to my patterns
 
@@ -177,6 +217,9 @@ In general, these are pairs where both entries are identical, so only needed to 
 # New briefs and phrases
 
 These are briefs and phrases that are completely new, no existing entry at all for these contractions and phrases (although the starter word for each exists, obviously!).
+
+"THAOELS", "these will",
+"THAO*ELS", "these'll",
 
 ### Here `HAOER`
 
@@ -224,10 +267,27 @@ SPH-GS": "something is
 SPH-GZ": "something has  
 SPH\*GS": "something's
 
+### Those `THOE`
+For the "those" family of briefs and contractions, I drop the ending `S` or `Z` (from `THOES` or `THOEZ`, among others), and use `THOE` as the left-hand starter brief for briefing phrases.
+
+"THOEL": "those will",  
+"THO*EL": "those'll",  
+"THOELD": "those would", /changed from "hold it" which has another entry that works  
+"THOED": "those had",   
+"THOEF": "those have",  
+"THO*EF": "those've",  
+"THOER": "those are", /changed from "author" which has like 7 other entries  
+"THO*ER": "those're",  
+
+
 ### Double contractions
 
-"KO\*UFPBT": "couldn't've", _(This phrase and contraction isn't used that often, and since I'm preferring `KOU` as the root for "could," I didn't bother creating a `KO` version of this brief pair. Also, `KOFPBT` is good brief for "covenant".)_   
 "KOUFPBT": "could not have",
+"KO\*UFPBT": "couldn't've",
+This phrase and contraction isn't used that often, and since I'm preferring `KOU` as the root for "could," I didn't bother creating a `KO` version of this brief pair. Also, `KOFPBT` is good brief for "covenant".)_   
+
+"WAO*EFD": "we'd've",
+No matching brief for the base phrase, "we would have," as anything that follows my pattern creates conflicts I've not sorted out options for yet.
 
 # COMING SOON
 
@@ -273,7 +333,8 @@ why're
 why've  
 why'd  
 why'll  
-who has  
+who has 
+we would have - need to resolve conflicts 
 
 **Everything below here is stuff I need to organize into the above portion of this document.** 
 
@@ -290,99 +351,46 @@ I’ll
 "AO*EUD": "I’d", /changed from ID, which I don't mind fingerspelling (could just change EUD to ID if desired)
 
 
-"T-S": "it has", 
-"*TS": "it’s",
-"T*S": "it has",
+ 
+
+
 it had /am considering -TD for it had (it's 'the' right now), OR changing T-D from {^ed it} to 'it had' and changing -TD from 'the' to '{^ed it} (or use *TD for ed it)
 
 "HRETS": "let us", /changed from let's
 "HR*ETS": "let’s", /changed from lets (lets is a term primarily used in UK/non-USA English, equivalent to 'rent' in meaning. I just use HRET/S for lets, since I use it rarely.  Others may wish to leave this as is.)
 
 
-"SHAOES": "she is", /changed from she's, phonetic
-"SHAOEZ": "she has", / changed from she's, phonetic
-"SH*ES": "she’s", /added
-"SHAOEL": "she will", /swapped from she'll
+
+
+
 she had
 
 "SHOPBT": "should not", /swapped from shouldn't
 
-"SHOUPBT": "should not", /added
-"SHO*UPBT": "shouldn't", /added
+
+ somehow somehow somehow should shouldn't shouldn't shouldn't SHO*PB shouldn't
 
 
-
-
-"THAZ": "that has",
-"THA*S": "that's",
-"THA*D": "that'd",
-"THAF": "that have", /changed-added
-"THAL": "that will", /changed from that'll
-that had
-
-"THR-F": "there have", /changed, prefer THROF for thereof
-"THR-S": "there is", /changed from there's
-"THR-L": "there will", /changed-swapped from there'll
-"THR-D": "there had", /changed from there'd
-"THR*R", "there're", /added
-
-(I prefer THAOES for these, I find myself shifting more and more to phonetic options on a lot of these common words over time!)
-"THAOELS", "these will", /added
-"THAO*ELS", "these'll", /added
-"THAO*ERS", "these're", /added
-
-
-"THEL": "they will", /changed-swapped from they'll
-"TH*EL": "they’ll", /added
-"THED": "they had", /swapped from they'd
-"TH*ED": "they'd", /added
+ 
 
 
 this's
 this'd
 
-
-(several options for 'those,' I prefer THOEZ, but sometimes also use THOES because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts)
-"THOELS": "those will", /added
-"THOELZ": "those will", /added
-"THO*ELS": "those'll", /added
-"THO*ELZ": "those'll", /added
-"THOELDZ": "those would", /added
-"THOED": "those had", /added, note dropped the S due to SD fingering impossibility so doesn't follow pattern
-"THOEDZ": "those had", /added
-"THO*ED": "those'd", /added, note dropped the S due to SD fingering impossibility so doesn't follow pattern
-"THO*EDZ": "those'd", /added for Z consistency
-"THOEFS": "those of", /already in dictionary as an 'of' brief, so I made the Z variant the 'have' phrase ender for the 'those' family, so this breaks pattern somewhat)
-"THOEFZ": "those have",
-"THOEFZ": "those of", /added
-"THO*EFS": "those've", /added
-"THO*ERZ": "those are", /added
-"THO*ERZ": "those're", /added
-
-
-
-"WER": "we are",
-"WAOER": "we are", /changed, for consistency - phonetic
+"WER": "we are",We're we're
 "W*ER": "we’re", /added to be consistent with WER
-"WAOEF": "we have", /changed from we've
-"WAO*EF": "we've", /changed from 'weave' - WAEF meets using spelling for homophones rule (and there's that WEF oddity for weave, which could be changed to "we have" if prefer WE root)
-"WAOEL": "we will", /changed from we'll
+we've weave
+we'd 
+
 we would
 we had
-"WAO*ED", "we’d", /changed from weed
-"WAOED", "weed", /changed to weed
-we'd've
-
-
+ 
 "WHA*Z": "what as",
-
-
 
 "WHOR": "who are", /changed-added - "whore" has WHOER version
 "WHO*R": "who’re", /added
 "WHOF": "who have", /changed-added
 "WHOL": "who will", /changed from who'll
-
 
 "HR*PBT", "won't", /added, just to be consistent with root phrase
 "WOPBT", "wont", /changed from wouldn't
@@ -393,3 +401,4 @@ we'd've
 
 
 
+ 
