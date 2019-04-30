@@ -4,8 +4,6 @@ This file documents all the changes and new entries that the contractions.json d
 
 You'll also find some brief notes explaining some of the changes and/or choices made, thoughts on current inconsistencies, and bit more here and there below.
 
-# THIS IS JUST A REFERENCE FILE, DO NOT INSTALL THIS INTO PLOVER AS A DICTIONARY!! IT WILL NOT WORK!
-
 # Entries that are the same as the default dictionary entry:
 
 "AEUPBT": "ain't", 
@@ -27,6 +25,7 @@ You'll also find some brief notes explaining some of the changes and/or choices 
 "PHAOEUF": "might have",  
 "SHES": "she is",   
 "SHEZ": "she has",   
+"SHAO\*ED": "she'd",  
 "SHAO\*ES": "she's",   
 "SHAO\*EL": "she’ll,"   
 "SHELD": "she would," (already in dictionary, but not consistent with preferred SHAOE root :( )  
@@ -61,7 +60,8 @@ You'll also find some brief notes explaining some of the changes and/or choices 
 "THR-R", "there are",   
 "ULD": "you would",   
 "\*UD": "you’d",   
-"W\*UPBS": "one’s",   
+"W\*UPBS": "one’s",
+"WER": "we are",
 "WAO\*ER": "we're",   
 "W\*EF": "we’ve",   
 "WAO\*EL": "we’ll",   
@@ -86,11 +86,14 @@ You'll also find some brief notes explaining some of the changes and/or choices 
 
 These entries generally had the `*` brief be the non-contracted phrase, and the non-`*` brief be the contracted phrase. So, the definitions for these were simply swapped with each other.  This also includes brief pairs where both entries were identical, so one of the briefs was changed to be either a contraction or the non-contracted phrase, as appropriate.
 
-"R-PBT": "are not", /swapped  
-"R\*PBT": "aren’t",
+"HRETS": "let us", /changed from let's
+"HR*ETS": "let’s", /changed from lets - I just use `HRET/-S` for "lets", since I use it rarely.
 
 "K-PBT": "cannot", /swapped  
 "K\*PBT": "can’t",
+
+"R-PBT": "are not", /swapped  
+"R\*PBT": "aren’t",
 
 "T-L": "it will", /changed from it'll  
 "T\*L": "it’ll", 
@@ -100,6 +103,8 @@ These entries generally had the `*` brief be the non-contracted phrase, and the 
 
 "UR": "you are",  
 "\*UR": "you’re",
+
+
 
 # Brief pair entries where existing entry was changed, and a new corresponding brief to complete the pair was created.
 
@@ -115,10 +120,10 @@ These entries generally had the `*` brief be the non-contracted phrase, and the 
 "SR-PBT": "have not", /changed from haven't  
 "SR\*PBT": "haven’t", /added
 
-"THED": "they had", /changed from they'd
+"THED": "they had", /changed from they'd  
 "TH*ED": "they'd", /added
 
-"THEL": "they will", /changed from they'll
+"THEL": "they will", /changed from they'll  
 "TH*EL": "they’ll", /added
 
 "THER": "they are", /changed from "they're"  
@@ -126,9 +131,6 @@ These entries generally had the `*` brief be the non-contracted phrase, and the 
 
 "THEF": "they have", /changed from "they've  
 "TH\*EF": "they’ve", /added 
-
-"THR-S": "there is", /changed from there's  
-
 
 "TK-PBT": "did not", /changed from didn't  
 "TK\*PBT": "didn’t", /added
@@ -152,10 +154,13 @@ These entries generally had the `*` brief be the non-contracted phrase, and the 
 
 All of these are new entries.  Some may have preexisting non-conforming entries, but that's not documented here.  Plover has a wonderful lookup tool you can use to find those entries ;)
 
-"PHAO\*EUF": "might’ve", /added
-"SH*ES": "she’s", /added, even though I prefer `SHAOE` for "shoes", `SHES` is already "she is" by default, so might as well add this.
-"THAO*ERS", "these're",
-
+"HO*UL": "how'll",  
+"*EULD": "I'd",  
+"PHAO\*EUF": "might’ve",  
+"SH*ES": "she’s", /added, even though I prefer `SHAOE` for "shoes", `SHES` is already "she is" by default, so might as well add this.  
+"TH*S": "this's",
+"THAO*ERS", "these're",  
+"W*ER": "we’re",  
 
 # Brief pair entries where just one half of the pair was changed
 
@@ -164,11 +169,14 @@ In general, these are pairs where both entries are identical, so only needed to 
 "AOEUF": "I have", /changed from "I've"
 "HAOERS": "here is",  
 "HAOES": "he is",  
-"HOUD": "how had",  
+"HOUD": "how had",
+"KWRAUL": "you all", /changed from ya'll
+"SHAOED": "she had",  
 "SHAOEL": "she will", /changed from she'll  
 "SHAOES": "she is", /changed from she's  
 "SHAOEZ": "she has", / changed from she's, to fit my pattern
 "SHOUPBT": "should not", /changed from "shouldn't"
+"SHOPBT": "should not", /changed from shouldn't (note I prefer `SHOU`-based briefs)
 "T-S": "it is", /changed from it's   
 "TH-L": "this will", /changed from this'll   
 "THA*S": "that's", /changed from "that as"  
@@ -177,13 +185,18 @@ In general, these are pairs where both entries are identical, so only needed to 
 "THR-D": "there had", /changed from there'd  
 "THR-L": "there will", /changed from there'll  
 "THR*R", "there're",  
+"THR-S": "there is", /changed from there's  
 "UD": "you had",
 "WAOER": "we are", /changed from we're
 "WAOEL": "we will", /changed from we'll      
 "WHAL": "what will",
+"WHOF": "who have", /changed from who've
+"WHOL": "who will", /changed from who'll
 
 # Changes involving unrelated words
-I *really* focused on avoiding changing the briefs for any unrelated words that just happened to sound the same as a contraction, so there's very few of these..
+
+"AOEUD": "I had", /changed from I'd
+"AO*EUD": "I’d", /changed from ID, which I don't mind fingerspelling (could just change EUD to ID if desired)
 
 "HAO\*ED": "he’d", /changed from heed  
 "HAOED": "he had", /changed from he'd  
@@ -206,13 +219,14 @@ I *really* focused on avoiding changing the briefs for any unrelated words that 
 "WAOEF": "we have", /changed from we've
 "WAO*EF": "we've", /changed from 'weave' - WAEF meets the "using spelling to differentiate homophones" rule (ya, I know, lots of us use `*` to differentiate homophones instead of spelling, but I use "we" and "we've" way more often then "weave" and this holds true to steno principles... and then there's that `WEF` oddity for weave, which could be changed to "we have" if prefer `WE` root ... oh no, it's a rabbit hole!)
 
+"WHOR": "who are", /changed from "whore", as there are steno-complilant entries in the dictionary
+"WHO*R": "who’re", /added
 
 # New entries for briefs and phrases that already exist, but don't conform to my patterns
 
 "HAOEZ": "he has",  
 "WOUPBT": "would not", _(Note: This pair was added since I prefer `WOU` for "would" and `-PBT` for "not".)_  
 "WO\*UPBT":, "wouldn’t",
-
 
 # New briefs and phrases
 
@@ -223,14 +237,13 @@ These are briefs and phrases that are completely new, no existing entry at all f
 
 ### Here `HAOER`
 
-There are a number of "here" briefs and phrases, but the ones below do not currently exist.
+There are a number of "here" briefs and phrases in the default dictionary, but not the ones below!
 
 "HAOERZ": "here has",  
 "HAOERL": "here will",  
 "HAO\*ERL": "here'll",   
 "HAOERLD": "here would",  
 "HAO\*ERD": "here'd",
-
 
 ### Somebody `SPH-B` 
 There are numerous entries/options for the word "somebody." I prefer `SPH-B` as the brief for the left-hand phrase starter brief (or as I tend to call it, the "root" brief). All of these are new entries, some bump against orthography, but the orthographic strokes are generally nonsensicle words.  If you really want to write "somebodieds" you can still stroke it using orthographic norms (`SPH-B/-D/-S` or `SPH-BD/-S`) 
@@ -336,69 +349,24 @@ why'll
 who has 
 we would have - need to resolve conflicts 
 
-**Everything below here is stuff I need to organize into the above portion of this document.** 
+**Everything below here is stuff I need to organize into the above portion of this document or deal with later.** 
 
-(root of how is HOU)
-"HO*UL": "how'll", /added  
 / I'm not happy with the 'I' family of briefs, still stewing on it
 I am/I’m
 So AOEUPL is "I'm" by default, but can't change it to AO*EUPL because that's mapped to {^ime} suffix and I loath changing default suffixes ... on the other hand, both EUPL and *EUPL map to {im^} prefix, so I am considering changing *EUPL to {^ime} (which is consistent with similar/related prefix and suffix strokes having a matching pair of entries in the dictionary, differentiated only by a *).  If I do this, then that frees up AO*EUPL to be "I'm" and I can change AOEUPL to "I am", while keeping EUPL as {im^} and making *EUPL {^ime}
-
 I will
 I’ll
-"EU*LD": "I'd", /added
-"AOEUD": "I had", /changed from I'd
-"AO*EUD": "I’d", /changed from ID, which I don't mind fingerspelling (could just change EUD to ID if desired)
-
-
- 
-
+ I'll aisle
 
 it had /am considering -TD for it had (it's 'the' right now), OR changing T-D from {^ed it} to 'it had' and changing -TD from 'the' to '{^ed it} (or use *TD for ed it)
 
-"HRETS": "let us", /changed from let's
-"HR*ETS": "let’s", /changed from lets (lets is a term primarily used in UK/non-USA English, equivalent to 'rent' in meaning. I just use HRET/S for lets, since I use it rarely.  Others may wish to leave this as is.)
 
-
-
-
-
-she had
-
-"SHOPBT": "should not", /swapped from shouldn't
-
-
- somehow somehow somehow should shouldn't shouldn't shouldn't SHO*PB shouldn't
-
-
- 
-
-
-this's
-this'd
-
-"WER": "we are",We're we're
-"W*ER": "we’re", /added to be consistent with WER
 we've weave
-we'd 
-
 we would
-we had
- 
-"WHA*Z": "what as",
 
-"WHOR": "who are", /changed-added - "whore" has WHOER version
-"WHO*R": "who’re", /added
-"WHOF": "who have", /changed-added
-"WHOL": "who will", /changed from who'll
+
+"WHA*Z": "what as",
 
 "HR*PBT", "won't", /added, just to be consistent with root phrase
 "WOPBT", "wont", /changed from wouldn't
 "WO*PBT", "won't", /changed from wont
-
-
-"KWRAUL": "you all", /changed from ya'll
-
-
-
- 
