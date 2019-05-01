@@ -5,82 +5,93 @@ This file documents all the changes and new entries that the contractions.json d
 You'll also find some brief notes explaining some of the changes and/or choices made, thoughts on current inconsistencies, and bit more here and there below.
 
 # Entries that are the same as the default dictionary entry:
+These entries are exactly the same as the default dictionary.  I duplicate them in this dictionary to "future proof" against changes to these briefs in the default dictionary.  Having these in both _main.json_ and _contractions.json_ causes no issues and doesn't impact performance, since Plover only parses dictionaries looking for a brief in the order of priority  you set. 
 
-"AEUPBT": "ain't", 
-"AOEUF": "I've"
-"KOUF": "could have",   
-"KO\*UF": "could’ve",   
-"KWRA\*UL": "y'all",   
-"HEZ": "he has",   
-"HAO\*ES": "he’s",   
-"HAO\*EL": "he'll",   
-"HAO\*ERS": "here’s",  
-"HO\*US": "how's",   
-"HO\*UF": "how've",   
-"HOULD": "how would",   
-"HO\*UD": "how'd",   
-"HR-PBT", "will not",   
-"AO\*EUF": "I’ve",   
-"EULD": "I would",   
-"PHAOEUF": "might have",  
-"SHES": "she is",   
-"SHEZ": "she has",   
-"SHAO\*ED": "she'd",  
-"SHAO\*ES": "she's",   
-"SHAO\*EL": "she’ll,"   
-"SHELD": "she would," (already in dictionary, but not consistent with preferred SHAOE root :( )  
-"SHAO\*ED": "she’d",   
-"SHOUF": "should have",  
-"SHO\*UF": "should’ve",  
-"SHO\*PBT": "shouldn't",  
-"SHO*UPBT": "shouldn't",
-"T-LD": "it would",   
-"T\*D": "it’d",   
 "-TS": "it is",
 "*TS": "it’s",   
-"T*S": "it's", 
+"\*UD": "you’d",   
+"AEUPBT": "ain't", 
+"AO\*EUF": "I’ve",   
+"AOEUF": "I've"
+"EULD": "I would",   
+"HAO\*EL": "he'll",   
+"HAO\*ERS": "here’s",  
+"HAO\*ES": "he’s",   
+"HEZ": "he has",   
+"HO\*UD": "how'd",   
+"HO\*UF": "how've",   
+"HO\*US": "how's",   
+"HOULD": "how would",   
+"HR-PBT", "will not",   
+"KO\*UF": "could’ve",   
+"KOUF": "could have",   
+"KWR-R": "why are", 
+"KWR*S": "why's",
+"KWRA\*UL": "y'all",   
+"PHAOEUF": "might have",  
+"SHAO\*ED": "she'd",  
+"SHAO\*ED": "she’d",   
+"SHAO\*EL": "she’ll,"   
+"SHAO\*ES": "she's",   
+"SHELD": "she would," (already in dictionary, but not consistent with preferred SHAOE root :( )  
+"SHES": "she is",   
+"SHEZ": "she has",   
+"SHO*UPBT": "shouldn't",
+"SHO\*PBT": "shouldn't",  
+"SHO\*UF": "should’ve",  
+"SHOUF": "should have",  
+"T-LD": "it would",   
 "T-Z": "it has",   
-"TH\*L": "this’ll",   
+"T*S": "it's", 
+"T\*D": "it’d",   
 "TH-S": "this is",   
+"TH\*L": "this’ll",   
 "THA*D": "that'd",  
+"THA\*D": "that’d",   
 "THA\*F": "that've",   
 "THA\*L": "that’ll",  
 "THALD": "that would",  
-"THAS": "that is",  
-"THA\*D": "that’d",   
-"THAZ": "that has",
 "THAOERS", "these are",  
+"THAS": "that is",  
+"THAZ": "that has",
 "THELD": "they would",   
-"THR\*F": "there’ve",   
-"THR-Z": "there has",
-"THR\*S": "there’s",   
-"THR\*L": "there’ll",   
 "THR-LD": "there would",   
-"THR\*D", "there’d",   
 "THR-R", "there are",   
+"THR-Z": "there has",
+"THR\*D", "there’d",   
+"THR\*F": "there’ve",   
+"THR\*L": "there’ll",   
+"THR\*S": "there’s",   
 "ULD": "you would",   
-"\*UD": "you’d",   
-"W\*UPBS": "one’s",
-"WER": "we are",
-"WAO\*ER": "we're",   
 "W\*EF": "we’ve",   
+"W\*UPBS": "one's",
+"W\*UPBS": "one’s",
 "WAO\*EL": "we’ll",   
-"WHAS": "what is",   
-"WHA\*L": "what’ll",   
-"WHALD": "what would",   
-"WHAD": "what had",   
+"WAO\*ER": "we're",   
+"WER": "we are",
+"WHA*F": "what've",
 "WHA\*D": "what’d",  
+"WHA\*L": "what’ll",   
 "WHA\*S": "what’s",   
+"WHAD": "what had",   
+"WHALD": "what would",   
+"WHAR": "what are",  
+"WHAS": "what is",   
 "WHAZ": "what has",  
-"WHO\*F": "who’ve",   
-"WHOS": "who is",   
-"WHO\*S": "who’s",   
-"WHO\*L": "who’ll",   
-"WHOLD": "who would",   
-"WHOD": "who had",   
 "WHO\*D": "who’d",  
-"WOUF": "would have",  
+"WHO\*F": "who’ve",   
+"WHO\*L": "who’ll",   
+"WHO\*S": "who’s",   
+"WHOD": "who had",   
+"WHOLD": "who would",   
+"WHOS": "who is",   
 "WO\*UF": "would’ve",  
+"WOUF": "would have",
+"WR-R": "where are", 
+"WR-F": "where have",
+"WR*F": "where've",
+"WR-D": "where had",
+"WR*D": "where'd", 
 
 # Brief pair entries that were swapped with each other
 
@@ -150,17 +161,26 @@ These entries generally had the `*` brief be the non-contracted phrase, and the 
 "WR-PBT": "were not", /changed from "weren't"  
 "WR\*PBT": "weren’t", /added
 
+"W-RS": "where is", /changed from where's
+"W*RS": "where's", /added
+
+"W-RD": "where'd", /changed to where had
+"W*RD": "where had", /added
+
 # Brief pair entries where one half of the pair existed and is unchanged, and new corresponding brief to complete the pair was created.
 
 All of these are new entries.  Some may have preexisting non-conforming entries, but that's not documented here.  Plover has a wonderful lookup tool you can use to find those entries ;)
 
 "HO*UL": "how'll",  
 "*EULD": "I'd",  
+"KWR*R": "why're",
 "PHAO\*EUF": "might’ve",  
 "SH*ES": "she’s", /added, even though I prefer `SHAOE` for "shoes", `SHES` is already "she is" by default, so might as well add this.  
 "TH*S": "this's",
 "THAO*ERS", "these're",  
 "W*ER": "we’re",  
+"WHA*R": "what're",  
+"WR*R": "where're",  
 
 # Brief pair entries where just one half of the pair was changed
 
@@ -193,6 +213,7 @@ In general, these are pairs where both entries are identical, so only needed to 
 "WHOF": "who have", /changed from who've
 "WHOL": "who will", /changed from who'll
 
+
 # Changes involving unrelated words
 
 "AOEUD": "I had", /changed from I'd
@@ -222,9 +243,11 @@ In general, these are pairs where both entries are identical, so only needed to 
 "WHOR": "who are", /changed from "whore", as there are steno-complilant entries in the dictionary
 "WHO*R": "who’re", /added
 
-# New entries for briefs and phrases that already exist, but don't conform to my patterns
+# New entries for briefs and phrases that already exist, but don't conform to my patterns and/or default entry required two or more strokes.
 
 "HAOEZ": "he has",  
+"PHAO*EUPBT": "mightn’t",
+"TPHAO*EPBT": "needn’t",
 "WOUPBT": "would not", _(Note: This pair was added since I prefer `WOU` for "would" and `-PBT` for "not".)_  
 "WO\*UPBT":, "wouldn’t",
 
@@ -232,6 +255,7 @@ In general, these are pairs where both entries are identical, so only needed to 
 
 These are briefs and phrases that are completely new, no existing entry at all for these contractions and phrases (although the starter word for each exists, obviously!).
 
+"HO*UL", "how will",
 "THAOELS", "these will",
 "THAO*ELS", "these'll",
 
@@ -308,45 +332,40 @@ he will - is NOT in dictionary, brief to match pattern causes conflict, need to 
 he would - is in dictionary as ELD, brief to match pattern causes conflict, need to figure this out still ;D  
 here are - is NOT in dictionary, brief to match pattern causes conflict, need to figure this out still ;D  
 here're - is NOT in dictionary, brief to match pattern causes conflict, need to figure this out still - low priority, it's not used a lot ;D
-how are  
+how are   hour
 how're  
-how is  
 how have  
-how will - not in dictionary. Obvious brief - HOUL - is only entry for word "howl," so conflicts. Need to figure out.  
-Might not  
-Mightn’t  
-Need not  
-Needn’t  
-one is  
-one has  
-what are  
-what're  
+how will - not in dictionary. Obvious brief - HOUL - is only entry for word "howl," so conflicts. Did add HO*UL-how'll. Need to figure out.  
+Might not  - obvious brief `PHAOEUPBT` maps to midnight. Did add `PHAO*EUPBT` for "mightn’t", however.  
+Need not   needed beneathed nineteenth 
+one is   one once ones  
+one has   ones wons
 what have  
-what've  
 was it  (Several options for 'was,' I prefer WA- as the root, but that creates numerous conflicts, hrm... come back to this)  
-Was not  
+Was not   when whens WH*ES
 Wasn’t  
-when's  
-when're  
-when've  
-when'd  
-when'll  
-where's  
-where're  
-where've  
-where'd  
-where'll  
-which's  
-which're  
-which've  
-which'd  
-which'll  
-why's  
-why're  
-why've  
-why'd  
-why'll  
-who has 
+
+"WHES": "when is", /added
+"WH*ES": "when's",  /added
+
+when're    where WH*ER WHERPB WH*ERPB  
+when've   WHEF WH*EF WHEFPB WH*EFPB  
+when'd   whenned WH*ED whenned when'd  
+when'll   WHEL WH*EL WHEPBL WH*EPBL  
+
+ W-RL W*RL 
+where will
+where'll
+
+which's   which is Wisconsins
+which're    wire W*EUR
+which've    WEUF W*EUF
+which'd   whiched width
+which'll   will Will
+why've   KWR-F KWR*F
+why'd   idea why'd
+why'll    ideal KWR*L
+who has  whose who has
 we would have - need to resolve conflicts 
 
 **Everything below here is stuff I need to organize into the above portion of this document or deal with later.** 

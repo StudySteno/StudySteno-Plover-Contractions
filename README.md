@@ -82,6 +82,7 @@ HAOER|here
 HOU|how
 HR-|will
 HRET|let
+KWR|why
 PHAOEU|might _(note the dropping of the ending `-T` for purposes of briefing and finger sanity)_
 PHU|must _(note the dropping of the ending `-FT` for purposes of briefing and finger sanity)_
 R-|are
@@ -102,12 +103,14 @@ TK-|did
 TKOE|do
 TKU|does _(By default, "does" is `TKUZ`, `TKOS` or `TKAOS`. For phonetic reasons, I prefer the `TKUZ` entry for "does," and for finger sanity reasons, I drop the `Z` when briefing phrases, therefore, the left-hand starter brief for "does" is `TKU`.)_
 THAOES|these
-WO, WOU|would _(note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)_
 THOES, THOEZ, THOE|those _(note there are several options for 'those' in the default dictionary. I prefer `THOEZ`, but sometimes also use `THOES` because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts.  Sometimes the ending `S` or `Z` is entirely dropped, and its likely that I'll make that my standard approach in the very near future.)_
 WAOE|we _(note some `WE`-based entries still exist for some phrases due to conflicts, I do prefer phonetic version of `WAOE`, although still resolving conflicts.)_
 WHA|what
+WHE|when
 WHO|who
+WO, WOU|would _(note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)_
 WR-|were
+W-R, WR-|where - read note in https://github.com/Greygal/StudySteno-Contractions#tricky-bits-to-watch-out-for section below. _(I am seriously considering using `WHR` are root brief for "where" even though its stand-alone brief for "whether" - but `WHR` "fits" the pattern of `WHA`/`WHE`/`WHO` so much nicer than `W-R` does ... sigh...)_
 U|you
 
 ## Right-hand phrase enders:
@@ -159,6 +162,15 @@ Some default entries use `EU`, some  use `AOEU` ... sigh... resolving the confli
 > `AOEUD` I had (because EUD maps to id and just don't get me started whinging on all the variations of I.D. ID id ...)  
 > `AO*EUD` I’d
 
+## W-R for "where" exception
+`W-R` is used for "where," except for the "where are" and "where have" pair of briefs.  We can't use `W-R` for this, since that's the root brief for "where" family, and we don't want to just use `WR` as the brief for "where" because that's the root brief for the "were" family... ideally, we'd use `WHR` as the root brief for all the briefed phrases and contractions that are part of the "where" family ... except the use of `W-R` is *really* well-established for "where", and the potential for a bunch of phrases that start with "whether" is noteable... so for now, "where" is either `W-R` or `WR-` depending on conflicts. Eventually I'll sort out consistency on this.
+
+> `WR-R` where are (already in dictionary this way)
+> `WR*R` where're (added to conform)
+> `WR-F` where have (already in dictionary this way)
+> `WR*F` where've (already in dictionary this way)
+
+
 ## Double contractions
 
 Fortunately, there are very few double contractions - that is, a root word with two contractions.  They work essentially the same as all other contractions, except you are "tucking" two right-hand endings, and the non-contracted phrase is three words.
@@ -177,8 +189,8 @@ If you would like to view documentation on all the changes/edits/additions/etc. 
 # NEED TO DO/FIX/FINISH
 
 - [ ] I'm not happy with the 'I' family of briefs, still stewing on which approach I prefer.  Some existing entries use `EU` for I, some use `AOEU`, there's a number of other bits going on in the "I" family, due to how many potential conflicts can result.
-- [ ] Make up my freakin' mind already regarding "those" briefs/phrases.
+- [x] Make up my freakin' mind already regarding "those" briefs/phrases.
 - [ ] Need to add phrases ending with "should" and "would" where they don't already exist (although existing 'd contractions work for phrases ending with should and would, of course)
-- [ ] Need to make the "those" family consistent, leaning towards just droping the tucked final `-S` or `Z` and using `THOE` as the root starter brief.
+- [x] Need to make the "those" family consistent, leaning towards just droping the tucked final `-S` or `Z` and using `THOE` as the root starter brief. -- DONE! Dropped the final `-S`/`-Z`!
 - [ ] Need to finish/fix the following phrase families:  Was, when, where, which, why, couple of other less common contractions.  There are several options for 'was,' I prefer `WA-` as the root, but that creates numerous conflicts, hrm... come back to this!
 
