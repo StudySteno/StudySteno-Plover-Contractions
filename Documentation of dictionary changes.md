@@ -100,6 +100,82 @@ These entries are exactly the same as the default dictionary.  I duplicate them 
 "WR-L": "where will",  
 "WR\*L": "where'll",  
   
+# NEW briefs and phrases  
+  
+These are briefs and phrases that are completely new, no existing entry at all for these contractions and phrases (although the starter word for each exists, obviously!).  
+  
+"KWR-F": "why have",  
+"KWR\*F": "why've",  
+"KWR\*L":, "why will",  
+"HO\*UL", "how will",  
+"THAOELS", "these will",  
+"THAO\*ELS", "these'll",  
+  
+### Here `HAOER`  
+  
+There are a number of "here" briefs and phrases in the default dictionary, but not the ones below!  
+  
+"HAOERZ": "here has",  
+"HAOERL": "here will",  
+"HAO\*ERL": "here'll",  
+"HAOERLD": "here would",  
+"HAO\*ERD": "here'd",  
+  
+### Somebody `SPH-B`  
+There are numerous entries/options for the word "somebody." I prefer `SPH-B` as the brief for the left-hand phrase starter brief (or as I tend to call it, the "root" brief). All of these are new entries, some bump against orthography, but the orthographic strokes are generally nonsensicle words.  If you really want to write "somebodieds" you can still stroke it using orthographic norms (`SPH-B/-D/-S` or `SPH-BD/-S`)  
+  
+"SPH-BL": "somebody will",  
+"SPH\*BL": "somebody'll",  
+"SPH-BLD": "somebody would",  
+"SPH-BD": "somebody had",  
+"SPH\*BD": "somebody'd",  
+"SPH-BS": "somebody is",  
+"SPH-BZ": "somebody has",  
+"SPH\*BS": "somebody's",  
+  
+### Someone `SPH-PB`  
+There are numerous entries/options for the word "someone." I prefer `SPH-PB` as the root. All of these are new entries, some bump against orthography but the orthographic strokes are nonsensicle - such as  'someoneds'.  If you really want to write "someoneds" you can still stroke using orthographic norms (`SPH-PB/-D/-S`)  
+  
+"SPH-PBL": "someone will",  
+"SPH\*PBL": "someone'll",  
+"SPH-PBLD": "someone would",  
+"SPH-PBD": "someone had",  
+"SPH\*PBD": "someone'd",  
+"SPH-PBS": "someone is",  
+"SPH-PBZ": "someone has",  
+"SPH\*PBS": "someone's", _(Note that there are double-stroke entries for "someone's", such as `SWUPB/AES`, but these do not conform with existing single-stroke contraction norms/entries, or my approach.)_  
+  
+### Something `SPH-G`  
+As with "someone", there are numerous entries/options for the word "something." I prefer `SPH-G` as the root brief for "someone." These are all new entries, a bit of orthographic bumping but if you really need to write "somethingeds" you can still stroke it using orthographic norms (`SPH-G/G/-D/-S` or perhaps `SPH-G/GD/S`)  
+  
+SPH-LG": "something will  
+SPH\*LG": "something'll  
+SPH-LGD": "something would  
+SPH-GD": "something had  
+SPH-GS": "something is  
+SPH-GZ": "something has  
+SPH\*GS": "something's  
+  
+### Those `THOE`  
+For the "those" family of briefs and contractions, I drop the ending `S` or `Z` (from `THOES` or `THOEZ`, among others), and use `THOE` as the left-hand starter brief for briefing phrases.  
+  
+"THOEL": "those will",  
+"THO\*EL": "those'll",  
+"THOELD": "those would", /changed from "hold it" which has another entry that works  
+"THOED": "those had",  
+"THOEF": "those have",  
+"THO\*EF": "those've",  
+"THOER": "those are", /changed from "author" which has like 7 other entries  
+"THO\*ER": "those're",  
+  
+### Double contractions  
+  
+"KOUFPBT": "could not have",  
+"KO\*UFPBT": "couldn't've",  
+This phrase and contraction isn't used that often, and since I'm preferring `KOU` as the root for "could," I didn't bother creating a `KO` version of this brief pair. Also, `KOFPBT` is good brief for "covenant".)_  
+  
+"WAO\*EFD": "we'd've",  
+No matching briefs for the base phrase(s), "we would have," "we should have", "we could have" (yet)  
   
 # Brief pair entries that were swapped with each other  
   
@@ -122,7 +198,6 @@ These entries generally had the `*` brief be the non-contracted phrase, and the 
   
 "UR": "you are",  
 "\*UR": "you're",  
-  
   
 # Brief pair entries where existing entry was changed, and a new corresponding brief to complete the pair was created.  
   
@@ -265,84 +340,7 @@ In general, these are pairs where both entries are identical, so only needed to 
 "TPHAO\*EPBT": "needn't",  
 "WOUPBT": "would not", _(Note: This pair was added since I prefer `WOU` for "would" and `-PBT` for "not".)_  
 "WO\*UPBT":, "wouldn't",  
-  
-# New briefs and phrases  
-  
-These are briefs and phrases that are completely new, no existing entry at all for these contractions and phrases (although the starter word for each exists, obviously!).  
-  
-"KWR-F": "why have",  
-"KWR\*F": "why've",  
-"KWR\*L":, "why will",  
-"HO\*UL", "how will",  
-"THAOELS", "these will",  
-"THAO\*ELS", "these'll",  
-  
-### Here `HAOER`  
-  
-There are a number of "here" briefs and phrases in the default dictionary, but not the ones below!  
-  
-"HAOERZ": "here has",  
-"HAOERL": "here will",  
-"HAO\*ERL": "here'll",  
-"HAOERLD": "here would",  
-"HAO\*ERD": "here'd",  
-  
-### Somebody `SPH-B`  
-There are numerous entries/options for the word "somebody." I prefer `SPH-B` as the brief for the left-hand phrase starter brief (or as I tend to call it, the "root" brief). All of these are new entries, some bump against orthography, but the orthographic strokes are generally nonsensicle words.  If you really want to write "somebodieds" you can still stroke it using orthographic norms (`SPH-B/-D/-S` or `SPH-BD/-S`)  
-  
-"SPH-BL": "somebody will",  
-"SPH\*BL": "somebody'll",  
-"SPH-BLD": "somebody would",  
-"SPH-BD": "somebody had",  
-"SPH\*BD": "somebody'd",  
-"SPH-BS": "somebody is",  
-"SPH-BZ": "somebody has",  
-"SPH\*BS": "somebody's",  
-  
-### Someone `SPH-PB`  
-There are numerous entries/options for the word "someone." I prefer `SPH-PB` as the root. All of these are new entries, some bump against orthography but the orthographic strokes are nonsensicle - such as  'someoneds'.  If you really want to write "someoneds" you can still stroke using orthographic norms (`SPH-PB/-D/-S`)  
-  
-"SPH-PBL": "someone will",  
-"SPH\*PBL": "someone'll",  
-"SPH-PBLD": "someone would",  
-"SPH-PBD": "someone had",  
-"SPH\*PBD": "someone'd",  
-"SPH-PBS": "someone is",  
-"SPH-PBZ": "someone has",  
-"SPH\*PBS": "someone's", _(Note that there are double-stroke entries for "someone's", such as `SWUPB/AES`, but these do not conform with existing single-stroke contraction norms/entries, or my approach.)_  
-  
-### Something `SPH-G`  
-As with "someone", there are numerous entries/options for the word "something." I prefer `SPH-G` as the root brief for "someone." These are all new entries, a bit of orthographic bumping but if you really need to write "somethingeds" you can still stroke it using orthographic norms (`SPH-G/G/-D/-S` or perhaps `SPH-G/GD/S`)  
-  
-SPH-LG": "something will  
-SPH\*LG": "something'll  
-SPH-LGD": "something would  
-SPH-GD": "something had  
-SPH-GS": "something is  
-SPH-GZ": "something has  
-SPH\*GS": "something's  
-  
-### Those `THOE`  
-For the "those" family of briefs and contractions, I drop the ending `S` or `Z` (from `THOES` or `THOEZ`, among others), and use `THOE` as the left-hand starter brief for briefing phrases.  
-  
-"THOEL": "those will",  
-"THO\*EL": "those'll",  
-"THOELD": "those would", /changed from "hold it" which has another entry that works  
-"THOED": "those had",  
-"THOEF": "those have",  
-"THO\*EF": "those've",  
-"THOER": "those are", /changed from "author" which has like 7 other entries  
-"THO\*ER": "those're",  
-  
-### Double contractions  
-  
-"KOUFPBT": "could not have",  
-"KO\*UFPBT": "couldn't've",  
-This phrase and contraction isn't used that often, and since I'm preferring `KOU` as the root for "could," I didn't bother creating a `KO` version of this brief pair. Also, `KOFPBT` is good brief for "covenant".)_  
-  
-"WAO\*EFD": "we'd've",  
-No matching briefs for the base phrase(s), "we would have," "we should have", "we could have" (yet)  
-  
+
 # COMING SOON  
 The following are NOT currently in Plover's default dictionary, and I have not created briefs for these yet, due to conflicts or other issues.  
   
@@ -362,7 +360,7 @@ everything related to "why'd" - why did, why had, why should/would/could, etc.
 why will -  conflicts ideal  
 we would, we would/should/could have - need to create and/or resolve conflicts  
 Figure out "which have" brief (`KH-F`/`KH*F` conflicts with briefs for CHF/chronic heart failure)  
-  
+
 The following are in the default dictionary with nonconforming outlines (although true to principles of steno) ... eventually will sort out ways to create briefs that conform to the overall pattern (maybe)...  
   
 he would - is in dictionary as `ELD`, brief to match pattern causes conflict, need to figure this out still ;D  
