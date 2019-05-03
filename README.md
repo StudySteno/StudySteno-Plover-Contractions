@@ -73,8 +73,6 @@ Most of these will already be familiar to you, as I utlized existing norms as mu
 Brief|Word  
 -----|------  
 AOEU, EU|I _(see note in the "tricky bits" section.)_  
-K-|can  
-KO-, KOU |could _(`KOU` is preferred.  Note I'm migrating away from using `KO`, as I prefer the `KOU` version, although sorting out conflicts is ongoing.)_  
 H|had  
 HA|has  
 HAOE|he _(note that `HE`-based entries still exist for some phrases, I prefer the phonetic `HAOE` entries)._  
@@ -82,37 +80,37 @@ HAOER|here
 HOU|how  
 HR-|will  
 HRET|let  
+K-|can  
 KH|which _(note that the most commonly-used brief for the word "which" is `WEU`, but creating phrase/contraction briefs using `WEU` as root creates far too many conflicts.  `KH` on the other hand is already used for a number of phrases in the default dictionary, so used `KH` to create briefs for related/missing contractions.)  
+KO-, KOU |could _(`KOU` is preferred.  Note I'm migrating away from using `KO`, as I prefer the `KOU` version, although sorting out conflicts is ongoing.)_  
 KWR|why  
 PHAOEU|might _(note the dropping of the ending `-T` for purposes of briefing and finger sanity)_  
 PHU|must _(note the dropping of the ending `-FT` for purposes of briefing and finger sanity)_  
 R-|are  
 SHAOE|she _(note that `SHE`-based entries still exist for some phrases, I prefer the phonetic `SHAOE` entries.)_  
 SHO, SHOU|should _(note I'm migrating away from using `SHO`, as I prefer the `SHOU` version.)_  
-SPH|somebody  
 SPH-LG|something  
 SPH-PB|someone  
+SPH|somebody  
 SR-|have  
 T-|it  
 TH|this  
 THA|that  
 THAOES|these  
-THOE|those _(basically, drop the `-S` or `-Z` from the base `THOES`/`THOEZ` outline for briefing phrases)  
 THE|they _(don't get me started on the conflicts caused by a phonetic entry for "they")_  
+THOE|those _(basically, drop the `-S` or `-Z` from the base `THOES`/`THOEZ` outline for briefing phrases)  
 THR|there  
 TK-|did  
 TKOE|do  
 TKU|does _(By default, "does" is `TKUZ`, `TKOS` or `TKAOS`. For phonetic reasons, I prefer the `TKUZ` entry for "does," and for finger sanity reasons, I drop the `Z` when briefing phrases, therefore, the left-hand starter brief for "does" is `TKU`.)_  
-THAOES|these  
-THOES, THOEZ, THOE|those _(note there are several options for 'those' in the default dictionary. I prefer `THOEZ`, but sometimes also use `THOES` because of simpler/easier fingering, so both are used as a root for most of these entries, except where creates conflicts.  Sometimes the ending `S` or `Z` is entirely dropped, and its likely that I'll make that my standard approach in the very near future.)_  
+U|you  
+W-R, WR-|where - read note in https://github.com/Greygal/StudySteno-Contractions#tricky-bits-to-watch-out-for section below. _(I am seriously considering using `WHR` are root brief for "where" even though its stand-alone brief for "whether" - but `WHR` "fits" the pattern of `WHA`/`WHE`/`WHO` so much nicer than `W-R` does ... sigh...)_  
 WAOE|we _(note some `WE`-based entries still exist for some phrases due to conflicts, I do prefer phonetic version of `WAOE`, although still resolving conflicts.)_  
-WHA|what  
 WH|when  
+WHA|what  
 WHO|who  
 WO, WOU|would _(note I'm migrating away from using `WO`, as I prefer the `WOU` version, although sorting out conflicts is ongoing.)_  
 WR-|were  
-W-R, WR-|where - read note in https://github.com/Greygal/StudySteno-Contractions#tricky-bits-to-watch-out-for section below. _(I am seriously considering using `WHR` are root brief for "where" even though its stand-alone brief for "whether" - but `WHR` "fits" the pattern of `WHA`/`WHE`/`WHO` so much nicer than `W-R` does ... sigh...)_  
-U|you  
   
 ## Right-hand phrase enders:  
 Again, most of these will already be familar to you.  Simply add/tuck them into the left hand starter brief to use.  
