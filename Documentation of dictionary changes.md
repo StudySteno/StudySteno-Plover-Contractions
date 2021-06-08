@@ -204,7 +204,7 @@ These entries generally had the `*` brief be the non-contracted phrase, and the 
 "HPBT": "had not", /changed from hadn't  
 "H\*PBT": "hadn't", /added  
   
-"HAPBT": "has not", /changed from hadn't  
+"HAPBT": "has not", /changed from hasn't  
 "HA\*PBT": "hasn't", /added  
   
 "SPBT": "is not", /changed from isn't  
